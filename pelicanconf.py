@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Glen'
 SITENAME = 'Glens Blog'
-SITEURL = ''
+SITEURL = '.'
 
 PATH = 'content'
 
@@ -29,7 +29,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = 'themes/pelican-alchemy/alchemy'

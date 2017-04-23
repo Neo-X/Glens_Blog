@@ -8,6 +8,14 @@ sudo pip install pelican
 
 make publish
 
+# Settings
+
+WHere to find more themes  
+https://github.com/getpelican/pelican-themes
+
+Current theme  
+https://github.com/nairobilug/pelican-alchemy/tree/f235c81bf323e6134b01915fc9a46b5e89ac238b
+
 
 # Extras
 
