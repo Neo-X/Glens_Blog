@@ -18,17 +18,23 @@ Here I am going to focus on an interface I have found useful for wrapping physic
 
 We want to able to support two types of control flow.
 One for learing and one for simulation.
+I find it helpful to have these two different methods because during learning we often can and want to simulator things faster then we would normally render them.
+Also during the rendering option we might want to be able to intereact with the simulation, for example, to give an agent in the simulation a little shove.
+
+### Examples of The Flow of Control
 
 For Rendering the simulation:
 ```
-callback Animate
+animate()
+    // Might run the physics in the simulation faster than the frame rendering.
     For n = 1 .. num_substeps
-    Check if needs new action
-        get state()
-        get new action
-        apply the action
+        if simulation needs new action
+            s <= get state()
+            a <= get new action
+            apply the action
+            sim.updateAction(a)
     
-    update sim
+        update simulation
 
     postredisplay()
 ```
