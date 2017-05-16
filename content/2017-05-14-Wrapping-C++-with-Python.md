@@ -1,9 +1,10 @@
 ---
-layout: post
-title: Using SWIG to wrap C++ for Python
-date: '2017-05-14T00:25:00.001-07:00'
-author: Glen B
-tags: 
+Title: Interfacing with Simulators for RL
+Date: 2017-05-14 10:20
+Modified: 2017-05-15 19:30
+Category: ReinforcementLeanring
+Tags: RL, Python, SWIG, Authors
+AgentInterface: Glen B
 ---
 
 # Intro
@@ -18,8 +19,8 @@ Here I am going to focus on an interface I have found useful for wrapping physic
 
 We want to able to support two types of control flow.
 One for learing and one for simulation.
-I find it helpful to have these two different methods because during learning we often can and want to simulator things faster then we would normally render them.
-Also during the rendering option we might want to be able to intereact with the simulation, for example, to give an agent in the simulation a little shove.
+I find it helpful to have these two different methods because during learning we often can and want to simulate things faster then we would normally render them.
+Also during rendering we might want to be able to intereact with the simulation, for example, to give an agent in the simulation a little shove.
 
 ### Examples of The Flow of Control
 
@@ -40,104 +41,105 @@ animate()
 ```
 
 
-For Simulating for Training:
+For Training:
 ```
 act(action)
-apply the action
-    While (not needsNewAction)
+    sim.updateAction(a)
+    While (not needsNewAction())
         update sim()
 
 simEpoch(actor, env)
     n=0
+    tuples=[]
     While (not endOfEpisode() or n < 100)
         S = env.getState()
         A = policy(s)
-    R  = env.act(a)
-        Tuples[n] = (S, A, R)
+        R  = env.act(a)
+        tuples.append((S, A, R))
         n+=1
 
-    output_queue.put(Tuples)
+    return tuples
 ```
 
 ## The code
 
+Being able to use the above psuedo code is made possible by implementing the following interface.
+
 ```
 /*
- * SimbiconWrapper.h
+ * SimulationWrapper.h
  *
  *  Created on: Dec 9, 2016
  *      Author: Glen
  */
 
-#ifndef SRC_SIMBICONADAPTER_SIMBICONWRAPPER_H_
-#define SRC_SIMBICONADAPTER_SIMBICONWRAPPER_H_
-
-#include <simbiconAdapter/UI.h>
-// #include "Environment.h"
-#include "Configuration.h"
 #include <vector>
-#include "SimbiconAgent.h"
-#include <Core/SimBiController.h>
-
 
 class SimulationWrapper {
 public:
 
     /// Create the wrapper given some configuration
 	SimulationWrapper(Configuration * config);
-	virtual ~SimbiconWrapper();
+	virtual ~SimulationWrapper();
     /// Get the Current observation the agent can 'see'
 	virtual std::vector<double> getObservation();
+    /// Has the simulation reached the end of an epoch/episode
 	virtual bool endOfEpoch();
-	// virtual double act(Action) = 0;
+    /*
+    Step the simulation through to the end of the action
+    */
 	virtual double act(std::vector<double> action);
+    /*
+    Update the current agent/controller parameters
+    */
 	virtual double updateAction(std::vector<double> action);
-	/// Perform on simulation update
+	/// Perform one simulation update
 	virtual void update();
 	/// check whether or not the last action has completed and a new action is needed
 	virtual bool needUpdatedAction();
-
+    /*
+     Gets the state of the simuation not just the observation.
+    This state should be detailed enough to set the entire state of the simulation back to this state.
+    */
 	virtual std::vector<double> getSimState();
+    /*
+        Sets the state of the simulation to the given state.
+    */
 	virtual void setSimState(std::vector<double> state_);
-	virtual std::vector<double> getStateFromSimState(std::vector<double> state_);
+    /*
+        Computes the observation from the given simulation state.
+    */
+	virtual std::vector<double> getObservationFromSimState(std::vector<double> state_);
 
-
+    /// Initialize the agent in the simulation, prepares all datastructures to begin simulation
 	virtual void init();
+    /// clears the data for the old epoch and creates a new epoch to simulate
 	virtual void initEpoch();
+    /// Generates data for a new epoch
 	virtual void generateEnvironmentSample();
+    /// Gets a good measure to evaluate the performance of agent cross an entire epoch. For example average reward over epoch/episode
 	virtual std::vector<double> getEvaluationData();
 
-	// virtual void numAction();
-	// virtual void numStats();
-
+    /// unloads everything from the simulation in preparation for termination.
 	virtual void finish();
+    /// Clears the data for the current epoch/episode
 	virtual void clear();
 
-	virtual void start(double in);
-	virtual void stop();
-
-	virtual SimbiconAgent * getActor() const {return _actor;}
+    /// Get a pointer to the current actor. Can help with computing reward function values
+	virtual SimulationActor * getActor() const {return _actor;}
 	/// Has the agent fallen (into a non recoverable state)
 	virtual bool agentHasFallen();
-	/// tester BVH file parsing
-	virtual void parseBVH(std::string filename);
-
+    /// Calculate the current reward. This is often computed over the simulation since the beging of an action.
 	virtual double calcReward() const ;
 
 	/// Interactive functions to doing things in the simulation, like reseting and throwing objects at the character
 	virtual void onKeyEvent(int key, int mouseX, int mouseY);
 
 private:
-	SimbiconAgent * _actor;
-
-	virtual double _actSimbicon(std::vector<double> action);
-	virtual double _actPDTargets(std::vector<double> action);
-	virtual double _calcImitationReward() const;
-	virtual double _calcVelocityReward() const;
+	SimulationAgent * _actor;
 
 };
 
-#endif /* SRC_SIMBICONADAPTER_SIMBICONWRAPPER_H_ */
 
 ```
 
