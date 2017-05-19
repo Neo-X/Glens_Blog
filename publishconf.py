@@ -10,8 +10,9 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = './'
-RELATIVE_URLS = False
+# SITEURL = 'localhost/blog/'
+SITEURL = 'localhost/webstuff/CSE/blog/'
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'

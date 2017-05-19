@@ -4,7 +4,7 @@ Date: 2017-05-14 10:20
 Modified: 2017-05-15 19:30
 Category: ReinforcementLeanring
 Tags: RL, Python, SWIG, Authors
-AgentInterface: Glen B
+Author: Glen B
 ---
 
 # Intro
