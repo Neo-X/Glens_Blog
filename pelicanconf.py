@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Glen'
+AUTHOR = 'Glen B'
 SITENAME = 'Glens Blog'
-SITEURL = 'localhost/blog/'
+SITEURL = 'localhost/'
 
 PATH = 'content'
 
@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Home', 'http://www.fracturedplane.com'),
-         ('Publications', 'http://www.fracturedplane.com/blog/category/publication.html'),
-         ('Projects', 'http://www.fracturedplane.com/blog/category/project.html'),
-         ('Links', 'http://www.fracturedplane.com/links.php'),
+LINKS = (('Home', '/'),
+         ('Publications', '/blog/category/publication.html'),
+         ('Projects', '/blog/category/project.html'),
+         ('Links', '/links.php'),
          )
 
 # Social widget
