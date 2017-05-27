@@ -36,3 +36,6 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 
 THEME = 'themes/pelican-alchemy/alchemy'
+
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ["render_math"]
