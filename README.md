@@ -16,6 +16,22 @@ https://github.com/getpelican/pelican-themes
 Current theme  
 https://github.com/nairobilug/pelican-alchemy/tree/f235c81bf323e6134b01915fc9a46b5e89ac238b
 
+## Plugins
+
+The content uses a few plugins, mostly one to render math, so they need to be "installed". The plugins can be seen [here](https://github.com/getpelican/pelican-plugins). they can be installed with the code
+
+```
+git clone --recursive https://github.com/getpelican/pelican-plugins
+```
+
+And adding the two lines 
+
+```
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ["render_math"]
+```
+
+To the ``pelicanconf.py`` file.
 
 # Extras
 
