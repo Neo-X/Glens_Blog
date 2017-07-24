@@ -1,6 +1,6 @@
 ---
 Title: Using synthetic crowds to inform building pillar placements 
-Date: 2016-05-14 10:20
+Date: 2016-05-14 10:25
 Modified: Sunday, 21. May 2016 02:06PM 
 Category: Publication
 Tags: News, CrowdSimulation, Architecture

@@ -1,5 +1,5 @@
 ---
-Title: 2016-11-17-Towards-Computer-Assisted-Crowd-Aware-Architectural-Design.md
+Title: Towards Computer Assisted Crowd Aware Architectural Design
 Date: 2016-11-14 10:20
 Modified: Sunday, 21. Nov 2016 02:06PM 
 Category: Publication

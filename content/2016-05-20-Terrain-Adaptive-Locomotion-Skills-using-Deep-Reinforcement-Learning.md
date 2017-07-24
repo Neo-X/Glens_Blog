@@ -1,5 +1,5 @@
 ---
-Title: 2016-05-20-Terrain-Adaptive-Locomotion-Skills-using-Deep-Reinforcement-Learning.md
+Title: Terrain Adaptive Locomotion Skills using Deep Reinforcement Learning
 Date: 2016-5-14 10:20
 Modified: Sunday, 21. May 2016 02:06PM 
 Category: Publication
