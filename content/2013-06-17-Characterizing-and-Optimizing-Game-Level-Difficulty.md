@@ -1,4 +1,3 @@
-
 ---
 Title: Characterizing and Optimizing Game Level Difficulty
 Date: 2014-06-20 10:20

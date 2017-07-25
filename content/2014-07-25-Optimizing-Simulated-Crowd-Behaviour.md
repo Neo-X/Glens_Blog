@@ -1,4 +1,3 @@
-
 ---
 Title: Optimizing Simulated Crowd Behaviour	
 Date: 2014-05-20 10:20

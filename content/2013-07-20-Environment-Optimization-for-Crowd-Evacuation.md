@@ -1,4 +1,3 @@
-
 ---
 Title: Environment Optimization for Crowd Evacuation
 Date: 2014-05-20 10:20

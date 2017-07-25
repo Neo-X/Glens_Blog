@@ -1,4 +1,3 @@
-
 ---
 Title: Robust Space-time Footsteps for Agent-based Steering
 Date: 2014-05-20 10:20
