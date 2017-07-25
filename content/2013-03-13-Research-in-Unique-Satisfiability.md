@@ -3,7 +3,7 @@
 Title: Research in Unique Satisfiability
 Date: 2013-05-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
-Category: Publication
+Category: Project
 Tags: Satisfiability, USAT
 Author: Glen B
 ---
