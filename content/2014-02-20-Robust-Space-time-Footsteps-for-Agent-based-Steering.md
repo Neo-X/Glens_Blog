@@ -39,7 +39,7 @@ A number of  recent agent-based steering methods abandon the standard particle  
 	This video demonstrates some of the example results of robust footsteps algorithm.
 </p>
 <video width="720" height="410" controls>
-  <source type="video/mp4" src="projects/RobustFootsteps/Footsteps_Robust.mp4"></source>
+  <source type="video/mp4" src="projects/RobustFootsteps/2015-casa-robust-footsteps.mp4"></source>
   <source type="video/webm" src="projects/RobustFootsteps/Footsteps_Robust.webm"></source>
   							
   Your browser does not support the encoded video.
@@ -50,7 +50,7 @@ A number of  recent agent-based steering methods abandon the standard particle  
 <h2 class="paperTitle">
 	Recieved CASA2015 Best Short Paper Award
 </h2>
-<img src="projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
+<img src="../projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
 
 <p>
 	Photo - From Left to Right: Glen Berseth and Prof Jian Jun Zhang
@@ -60,7 +60,7 @@ A number of  recent agent-based steering methods abandon the standard particle  
 
 ## Files
 
-[Bibtex](../files/bibtex/robustFootsteps.bib)
+[Bibtex](../projects/RobustFootsteps/2015-casa-robust-footsteps.bib)
 [Paper](../projects/RobustFootsteps/robustfootsteps.pdf)
 [Presentation](../projects/RobustFootsteps/RobustFootstepSteering-Compressed.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
