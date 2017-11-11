@@ -1,0 +1,8 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Taylor and Stone}{2009}]{taylor2009transfer}
+Matthew~E Taylor and Peter Stone.
+\newblock Transfer learning for reinforcement learning domains: A survey.
+\newblock {\em Journal of Machine Learning Research}, 10(Jul):1633--1685, 2009.
+
+\end{thebibliography}
