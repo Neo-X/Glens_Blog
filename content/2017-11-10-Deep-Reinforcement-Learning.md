@@ -21,5 +21,6 @@ Try and explain things with integrals and finite sums...
 1. Future Discounted Reward (and trajectories)
 1. Policies and Value functions
 1. Optimal Policies and Value functions
-
+1. Policy Improvement (policy iteration and value iteration)
+1. 
 
