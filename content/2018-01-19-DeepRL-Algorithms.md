@@ -1,7 +1,7 @@
 ---
-Title: Deep Rienforcement Learning: A course on the subject 
-Date: 2017-11-10 10:20
-Modified: Friday, 10. Nov 2017 02:06PM 
+Title: Demistifying the Many Deep Rienforcement
+Date: 2018-01-10 10:20
+Modified: Friday, 10. Jan 2018 02:06PM 
 Category: Article
 Tags: RL, DeepLearning
 Author: Glen Berseth
@@ -10,7 +10,7 @@ Author: Glen Berseth
 
 #Intro
 
-In recient years there has been an explosion in Deep Reinforcement learning research resulting in the creation of many different RL algorithms that work with deep networks. In DeepRL and RL in general the goal is to train a policy \$\pi(a|s,\theta)\$ with parameters $\theta$.
+In recient years there has been an explosion in Deep Reinforcement learning research resulting in the creation of many different RL algorithms that work with deep networks. In DeepRL and RL in general the goal is to train a policy $\pi(a|s,\theta)$ with parameters $\theta$.
 
 It is difficult to keep track of all the algorithms let alone their properties and when it is best to use which one.
 
@@ -22,15 +22,14 @@ In this post I am making an effort to organize a number of RL methods into a few
 | TRPO      | on-policy | discrete and continuous | e-greedy and Gaussian noise |
 | DDPG      | off-policy      |   continuous only | Ornstein–Uhlenbeck process  |
 | A3C | on-policy      | discrete and continuous | e-greedy and Guassian noise |
-| CACLA | on-policy | discrete and continuous | e-greedy and Guassian noise |
-| DQN | on-policy | discrete and continuous | e-greedy and Guassian noise |
+| CACLA | on-policy | continuous | e-greedy and Guassian noise |
+| DQN | off-policy | discrete | e-greedy |
 | A2C | on-policy | discrete and continuous | e-greedy and Guassian noise |
 | Q-Prop | on-policy | discrete and continuous | e-greedy and Guassian noise |
 | PPO | on-policy | discrete and continuous | e-greedy and Guassian noise |
 | CEM | on-policy | discrete and continuous | e-greedy and Guassian noise |
 
 
-**What do I want to say about each algorithm? A kind of list of important or useful properties. What do I want to convey that  epople might not normally consider an important property**
 
 ### Continuous Actor Critic Learning Automaton (CACLA)
 
@@ -47,9 +46,32 @@ CACLA can be thought of as a simpleir policy learning algorithm that was develop
 
 ### Asynchronous Actor Critic (A3C)
 
+A3C is a modification of CACLA in at least two ways. The MSE loss is switch with a log likelihood loss and the score function is extanged for a multistep return estimation. Switching to a log likelihood loss allows us to model the distribution of action better using a policy. In the case of continuous actions the policy can be modeled as a vector of gaussian distributions. This in combination with the new score function that allows for a better trade-off between bias of the value function and the varaince in monte carlo samples from the simulation allows us to include a loss for the standard deviations in the policy. Now we can update the amount of exploration we think the policy should be performing in a state dependant manner.
+
+**Pros:**
+
+1. Using on-policy method with log likelihood loss allows the exploration to be learned.
+2. Method can be parallelized well.
+
+**Cons:**
+
+1. In practice exploration is still a challenge. An *Entropy* term is added to the loss to help increase exploration
+1. The policy mean can still change dramatically making learning a good policy challenging.
+ 
+
 ### Deep Deterministic Policy Gradient (DDPG)
 
+DPG is a slightly different framework that is more like DQN. Instead of using a score function to push the policy in the direction of actions with higher reward instead a action-valued Q function is learned. This action-valued function $q(s,a)$ can be used to compute the direction to change the current action in order to increase the overall future discounted reward. Simply the method maximizes $q(s,\pi(a|s))$. However, this method does not account for how exploration should be performed. Approximating a q-function is done off-policy so the the q-function can learn the value of states and actions the policy might not explore and in doing so can better estimate the value over all actions. This property should theoretically allow for the learning of full q-function that encodes the best action to take in any state. In practice this model is learned to compute gradients over the current mean of the policy in order to improve the policy.
 
+**Pros:**
+
+1. Can work very well for high dimensional continuous action problems
+1. Learns an action-valued function instead of a state-valued function.
+
+**Cons:**
+
+1. Does not explicitly provide a formalism for the exploration to be used.
+1. Needs a target network to increase stability while learning action-valued function.
 
 ### Trust Region Policy Optimization (TRPO)
 
@@ -69,4 +91,16 @@ TRPO is a great algorithm with some very good theoretical properties. Stochastic
 
 PPO was born from work that was done to combate the weaknesses of TRPO while keeping the monotonic improvements. PPO uses stochastic gradient descent instead of congugate gradient descent to optimize the policy parameters. Instead of a hard constraint on the KL divergence a soft constraint is used. This constraint has been used in the form of a boundary vilolation penalty and a clipping term (the official version). PPO has been shown to have close to or better performance than TRPO.
 
+**Pros:**
+
+1. Paralizable
+1. Does not use as much memory as TRPO
+
 **Cons:**
+
+1. KL can still change significantly between updates. Some network tuning could be necissary.
+
+
+##Discussion
+
+There are still many more RL algorithms than the ones mentioned here. These are the ones that are popular and I am more familier with.
