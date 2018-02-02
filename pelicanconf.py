@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Glen B'
+AUTHOR = 'Glen Berseth'
 SITENAME = 'Glens Blog'
-SITEURL = 'localhost/'
+SITEURL = 'localhost'
 
 PATH = 'content'
 
@@ -39,3 +39,6 @@ THEME = 'themes/pelican-alchemy/alchemy'
 
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ["render_math"]
+
+
+DISQUS_SITENAME = "https://www-fracturedplane-com.disqus.com"

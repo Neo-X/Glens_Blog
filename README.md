@@ -2,7 +2,8 @@
 
 # Dependancies
 
-sudo pip install pelican  
+pip3 install --user markdown  
+pip3 install --user pelican  
 
 # To Publish
 
