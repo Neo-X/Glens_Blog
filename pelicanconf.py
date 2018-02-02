@@ -41,4 +41,4 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ["render_math"]
 
 
-DISQUS_SITENAME = "https://www-fracturedplane-com.disqus.com"
+# DISQUS_SITENAME = "www-fracturedplane-com"
