@@ -1,7 +1,7 @@
 ---
-Title: Demistifying the Many Deep Rienforcement
+Title: Demistifying the Many Deep Reinforcement Learning Algorithms
 Date: 2018-01-10 10:20
-Modified: Friday, 10. Jan 2018 02:06PM 
+Modified: 14. Feb 2018 02:06PM 
 Category: Article
 Tags: RL, DeepLearning
 Author: Glen Berseth
@@ -32,9 +32,9 @@ In this post I am making an effort to organize a number of RL methods into a few
 
 
 
-### Continuous Actor Critic Learning Automaton (CACLA)
+## Continuous Actor Critic Learning Automaton (CACLA)
 
-CACLA can be thought of as a simpleir policy learning algorithm that was developed before some of the recient form mathimetically methods. A citic (value function) and policy are learned at the same time (aka actor-critic method). CACLA uses the critic as a *score function* to indicate what actions the policy should learning from. In this case it is used as an indicator function, an action that performs better than the current estimate of the policies future discounted reward is given to the policy to learn from. The policy will use MSE loss to fit the network to these better than average actions.
+[CACLA](http://ieeexplore.ieee.org/document/4220844/?reload=true) can be thought of as a simpleir policy learning algorithm that was developed before some of the recient formal mathimetically methods. A citic (value function) and policy are learned at the same time (aka actor-critic method). CACLA uses the critic as a *score function* to indicate what actions the policy should learning from. In this case it is used as an indicator function, an action that performs better than the current estimate of the policies future discounted reward is given to the policy to learn from. The policy uses MSE loss to fit the network to these better than average actions.
 
 **Pros:**
 
@@ -45,9 +45,9 @@ CACLA can be thought of as a simpleir policy learning algorithm that was develop
 1. Can't addjust the amount of exploration that policy should perform.
 2. Original method only uses single step returns to determine if reward for action is above average.
 
-### Asynchronous Actor Critic (A3C)
+## Asynchronous Actor Critic (A3C)
 
-A3C is a modification of CACLA in at least two ways. The MSE loss is switch with a log likelihood loss and the score function is extanged for a multistep return estimation. Switching to a log likelihood loss allows us to model the distribution of action better using a policy. In the case of continuous actions the policy can be modeled as a vector of gaussian distributions. This in combination with the new score function that allows for a better trade-off between bias of the value function and the varaince in monte carlo samples from the simulation allows us to include a loss for the standard deviations in the policy. Now we can update the amount of exploration we think the policy should be performing in a state dependant manner.
+[A3C](https://arxiv.org/abs/1602.01783) is a modification of CACLA in at least two ways. The MSE loss is switch with a log likelihood loss and the score function is extanged for a multistep return estimation. Switching to a log likelihood loss allows us to model the distribution of action better using a policy. In the case of continuous actions the policy can be modeled as a vector of gaussian distributions. This in combination with the new score function that allows for a better trade-off between bias of the value function and the varaince in monte carlo samples from the simulation allows us to include a loss for the standard deviations in the policy. Now we can update the amount of exploration we think the policy should be performing in a state dependant manner.
 
 **Pros:**
 
@@ -60,9 +60,9 @@ A3C is a modification of CACLA in at least two ways. The MSE loss is switch with
 1. The policy mean can still change dramatically making learning a good policy challenging.
  
 
-### Deep Deterministic Policy Gradient (DDPG)
+## Deep Deterministic Policy Gradient (DDPG)
 
-DPG is a slightly different framework that is more like DQN. Instead of using a score function to push the policy in the direction of actions with higher reward instead a action-valued Q function is learned. This action-valued function $q(s,a)$ can be used to compute the direction to change the current action in order to increase the overall future discounted reward. Simply the method maximizes $q(s,\pi(a|s))$. However, this method does not account for how exploration should be performed. Approximating a q-function is done off-policy so the the q-function can learn the value of states and actions the policy might not explore and in doing so can better estimate the value over all actions. This property should theoretically allow for the learning of full q-function that encodes the best action to take in any state. In practice this model is learned to compute gradients over the current mean of the policy in order to improve the policy.
+[DDPG](https://arxiv.org/abs/1509.02971) is a slightly different framework that is more like DQN. Instead of using a score function to push the policy in the direction of actions with higher reward instead a action-valued Q function is learned. This action-valued function $q(s,a)$ can be used to compute the direction to change the current action in order to increase the overall future discounted reward. Simply the method maximizes $q(s,\pi(a|s))$. However, this method does not account for how exploration should be performed. Approximating a q-function is done off-policy so the the q-function can learn the value of states and actions the policy might not explore and in doing so can better estimate the value over all actions. This property should theoretically allow for the learning of full q-function that encodes the best action to take in any state. In practice this model is learned to compute gradients over the current mean of the policy in order to improve the policy.
 
 **Pros:**
 
@@ -72,11 +72,12 @@ DPG is a slightly different framework that is more like DQN. Instead of using a 
 **Cons:**
 
 1. Does not explicitly provide a formalism for the exploration to be used.
-1. Needs a target network to increase stability while learning action-valued function.
+1. Needs a target network to increase stability while learning an action-valued function.
 
-### Trust Region Policy Optimization (TRPO)
+## Trust Region Policy Optimization (TRPO)
 
-TRPO is a great algorithm with some very good theoretical properties. Stochastic policy optimization can be challenging becasue the stochasticity can change quickly. This in combination with the properties deep neural networks, in particular that deep nets like to recieve nice small gradients. When the stochasticity grows so do the gradients, when the gradients grow so to can (and usually does) the stochasticity of the policy. TRPO uses congugate gradient decent with line search to optimize the policy parameters $\theta$ will applying a constraint the the KL divergence. The KL divergence constraint assist in keeping the stochastic distribution the policy models from changing to much between updates. 
+[TRPO](https://arxiv.org/abs/1502.05477) is a great algorithm with some very good theoretical properties. Stochastic policy optimization can be challenging becasue the stochasticity can change quickly. This in combination with the properties deep neural networks, in particular that deep nets like to recieve nice small gradients. When the stochasticity grows so do the gradients, when the gradients grow so to can (and usually does) the stochasticity of the policy. 
+TRPO uses congugate gradient decent with line search to optimize the policy parameters $\theta$ will applying a constraint the the KL divergence. The KL divergence constraint assist in keeping the stochastic distribution the policy models from changing to much between updates. 
 
 **Pros:**
 
@@ -88,9 +89,28 @@ TRPO is a great algorithm with some very good theoretical properties. Stochastic
 2. Lots of memory is needed to compute the Fisher vector product (AKA gradient vector product) of the paremters $\theta$
 3. Not easily paralizable.
 
-### Proximal Policy Optimization (PPO)
+### Generalize Advantage Estimation (GAE)
 
-PPO was born from work that was done to combate the weaknesses of TRPO while keeping the monotonic improvements. PPO uses stochastic gradient descent instead of congugate gradient descent to optimize the policy parameters. Instead of a hard constraint on the KL divergence a soft constraint is used. This constraint has been used in the form of a boundary vilolation penalty and a clipping term (the official version). PPO has been shown to have close to or better performance than TRPO.
+TRPO uses a KL divergence penalty to reduce the amount the policy distribution can shift between updates, however there can still be a significant variance in the advantage estimate.
+
+![Pelican](images/DYmistifying/policyGrad.svg)
+
+Here we can see a set of states labeled with their advantage.
+The True policy gradient is visualized with the circles.
+One of the challenges with esitmating the Advantage is that it is based on the furture discounted reward. 
+The agent could have randomly found some good reward for a few timesteps and then wondered into a very low reward area of the state space.
+This will result in a very low overall future discounted reward and a high Advantage for the states the agent was in the high reward area. 
+This advantage is good but for practicle reasons having widely different advantage values can lead to large and noisey gradients.
+[GAE](https://arxiv.org/abs/1506.02438) subtracts off the mean of the policy to reduce variance.
+
+![Pelican](images/DYmistifying/policyGradPlusMean.svg)
+
+Here the mean of the policy (aka baseline or value function estimate) is shown by the purple dot, label with the estimate. 
+This estimate changes the overall advantage, reducing it and making it more managable.
+
+## Proximal Policy Optimization (PPO)
+
+[PPO](https://arxiv.org/abs/1707.06347) was born from work that was done to combate the weaknesses of TRPO while keeping the monotonic improvements. PPO uses stochastic gradient descent instead of congugate gradient descent to optimize the policy parameters. Instead of a hard constraint on the KL divergence a soft constraint is used. This constraint has been used in the form of a boundary vilolation penalty and a clipping term (the official version). PPO has been shown to have close to or better performance than TRPO.
 
 **Pros:**
 
@@ -101,6 +121,14 @@ PPO was born from work that was done to combate the weaknesses of TRPO while kee
 
 1. KL can still change significantly between updates. Some network tuning could be necissary.
 
+
+## Q-Prop (Q-Prop)
+
+It would be really nice if we could combine the good parts of off-policy learning with those of on-policy learning. [Q-Prop](https://arxiv.org/abs/1611.02247) is one of a few works in this area. The goal is to combine the gradients from DDPG with the on-policy unbiased data. Methods like DDPG can never be extreamly accurate because the gradients passed to the actor come from an imperfect deep network with its own error. To get around this it is better to directly use data samples to reduce this error. Q-Prop does this by using an estimate of the advantage function (as the Q-function from DDPG) as a control variate to reduce the variance of the Advantage estimate from GAE.
+
+$$\Delta_{\theta} J(\theta) = E_{\rho \pi}[\Delta_{\theta}~log~\pi(a|s,\theta)(\hat{A}(s_t,a_t) - \bar{A}_w(s_t, a_t)] + E_{\rho \pi} [\Delta_a Q_w(s_t, a)|_a=\mu(s_t,\theta)\Delta_\theta \mu(s_t, \theta)]$$
+
+This estimate works to further reduce the varaince of the advantage estimate. However, [it might not be so clear that this method helps](https://arxiv.org/abs/1802.10031).
 
 ##Discussion
 
