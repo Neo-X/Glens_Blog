@@ -149,50 +149,51 @@ One of the challenges with estimating the Advantage is that it is based on the f
 The agent could have randomly found some good reward for a few timesteps and then wondered into a very low reward area of the state space.
 This will result in a very low overall future discounted reward and a high Advantage for the states the agent explored in the high reward area. 
 This advantage is good but for practise reasons having widely different advantage values can lead to large and noisy gradients.
-[GAE](https://arxiv.org/abs/1506.02438) does something similar to subtracting off the expected discounted future reward for the policy to reduce variance.
 
-Here the advantage of a number of points in the state space is given.
-
-![Pelican](images/DYmistifying/policyGradPlusMean.svg)
-
-Here the policy mean (aka baseline or value function) is shown by the purple dot, label with the estimate. 
-This estimate changes the overall advantage, reducing it and making it more manageable
+[GAE](https://arxiv.org/abs/1506.02438) reduces the variance by mixing the advantage estimates from just the data with estimates computed from the returns using the value function.
 
 ## Proximal Policy Optimization (PPO)
 
-[PPO](https://arxiv.org/abs/1707.06347) was born from work that was done to combate the weaknesses of TRPO while keeping the monotonic improvements. PPO uses stochastic gradient descent instead of congugate gradient descent to optimize the policy parameters. Instead of a hard constraint on the KL divergence a soft constraint is used. This constraint has been used in the form of a boundary vilolation penalty and a clipping term (the official version). PPO has been shown to have close to or better performance than TRPO.
+[PPO](https://arxiv.org/abs/1707.06347) was born from work that was done to combat the weaknesses of TRPO while keeping the monotonic behaviour. PPO uses stochastic gradient descent instead of conjugate gradient descent to optimize the policy parameters. Instead of a hard constraint on the KL divergence a soft constraint is used. This constraint is implemented in the form of a boundary violation penalty or a clipping term (the official version). PPO has been shown to have close to, or better performance than TRPO.
 
 **Pros:**
 
-1. Paralizable
+1. Parallelizable.
 1. Does not use as much memory as TRPO
 
 **Cons:**
 
-1. KL can still change significantly between updates. Some network tuning could be necissary.
+1. KL can still change significantly between updates. Some network tuning could be necessary
 
 
 ## Q-Prop (Q-Prop)
 
-It would be really nice if we could combine the good parts of off-policy learning with those of on-policy learning. [Q-Prop](https://arxiv.org/abs/1611.02247) is one of a few works in this area. The goal is to combine the gradients from DDPG with the on-policy unbiased data. Methods like DDPG can never be extreamly accurate because the gradients passed to the actor come from an imperfect deep network with its own error. To get around this it is better to directly use data samples to reduce this error. Q-Prop does this by using an estimate of the advantage function (as the Q-function from DDPG) as a control variate to reduce the variance of the Advantage estimate from GAE.
+It would be really nice if we could combine the good parts of off-policy learning with those of on-policy learning. [Q-Prop](https://arxiv.org/abs/1611.02247) is one of a few works in this area. 
+The goal is to combine the gradients from DDPG with unbiased on-policy data. Methods like DDPG can never be extremely accurate because the gradients passed to the actor come from an imperfect deep network with its own error. To get around this it is better to directly use data samples to reduce this error. Q-Prop does this by using an additional estimate of the advantage function (as the Q-function from DDPG) as a control variate to reduce the advantage variance from GAE.
 
 $$\Delta_{\theta} J(\theta) = E_{\rho \pi}[\Delta_{\theta}~log~\pi(a|s,\theta)(\hat{A}(s_t,a_t) - \bar{A}_w(s_t, a_t)] + E_{\rho \pi} [\Delta_a Q_w(s_t, a)|_a=\mu(s_t,\theta)\Delta_\theta \mu(s_t, \theta)]$$
 
-This estimate works to further reduce the varaince of the advantage estimate. However, [it might not be so clear that this method helps](https://arxiv.org/abs/1802.10031).
+This estimate works to further reduce the advantage variance, However, [it might not be so clear that this method helps](https://arxiv.org/abs/1802.10031).
 
 ##Discussion
 
-There are still many more RL algorithms than the ones mentioned here. These are the ones that are popular and I am more familier with.
+There are still many more RL algorithms than the ones mentioned here. These are the ones that are popular and I am more familiar with.
+This post has followed a road map of how RL research has progressed, and why.
+There are many other aspects to consider when using an RL algorithm, such as: how difficult is the problem to be solved, how many dimensions is the action space, does the state include images, etc.
+If you are interested in using an RL algorithm I suggest picking one off this list and possibly research some of the related papers that may have made small modifications to the algorithm. 
+Also, checking to papers/works that have solved a problem similar to part of what you are working on is a good start.
+
 
 <div id="disqus_thread"></div>
 <script>
 
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
 
 var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = www.fracturedplane.com;  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = 13; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
