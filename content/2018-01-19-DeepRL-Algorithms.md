@@ -1,5 +1,5 @@
 ---
-Title: Demistifying the Many Deep Reinforcement Learning Algorithms
+Title: Demystifying the Many Deep Reinforcement Learning Algorithms
 Date: 2018-01-10 10:20
 Modified: 14. Feb 2018 02:06PM 
 Category: Article
@@ -11,12 +11,16 @@ comments: true
 
 #Intro
 
-In recient years there has been an explosion in Deep Reinforcement learning research resulting in the creation of many different RL algorithms that work with deep networks. In DeepRL and RL in general the goal is to train a policy $\pi(a|s,\theta)$ with parameters $\theta$.
+In recent years there has been an explosion in Deep Reinforcement learning research resulting in the creation of many different RL algorithms that work with deep networks. In DeepRL and RL in general the goal is to optimize a policy $\pi(a|s,\theta)$ with parameters $\theta$ with respect to the future discounted reward.
+$$
+J(\pi) = \mathbb{E} [\sum_\limits{t=0}^{T} \gamma^{t} r_{t}]
+$$
+It can be difficult to keep track of the many algorithms let alone their properties and when it is best to use which one.
 
-It is difficult to keep track of all the algorithms let alone their properties and when it is best to use which one.
+In this post I am make an effort to organize a number of RL methods into a few groups. This organization helps clear up some misconceptions of different algorithms and demystifies what these properties really mean, for example, on-policy vs off-policy.
 
-In this post I am making an effort to organize a number of RL methods into a few groups. This organizing will help clear up some of the misconceptions of different algorithm and demistify what some of these properties really mean, for example, on-policy vs off-policy.
 
+Here a table of popular RL algorithms is given.
 
 | Name        | on/off policy           |  action space support | exploration method| 
 | ------------- |:-------------:| -----:| -----:|
@@ -30,7 +34,34 @@ In this post I am making an effort to organize a number of RL methods into a few
 | PPO | on-policy | discrete and continuous | e-greedy and Guassian noise |
 | CEM | on-policy | discrete and continuous | e-greedy and Guassian noise |
 
+### Properties
 
+**Exploration Method: **
+ - e-greedy: Is primarily used for discrete action domains. The main idea being that a random action should be chosen with a non-zero probability.
+ 
+ <table width='100%'>
+ <tr width='100%'>
+	 <td>
+		  ![Pelican](images/DYmistifying/actionDist.png)
+		  Original action selection probability
+	</td>
+	 <td>
+		  ![Pelican](images/DYmistifying/actionDistEpsilon.png)
+		  with epsilon greedy
+	</td>
+ </tr>
+</table>
+
+One property of RL algorithms I still rack my brain is on-policy vs off-policy. 
+I often find the line between these two very fuzzy. 
+While it is known that any method that uses an action-valued function is off policy, some methods that claim to be on-policy are used in ways that seem very off-policy.
+In some papers the amount of data collected before performing training updates is in the 100,000s, far more than anything I have ever used.
+It is has also been shown that [keeping around data from the last few data collection cycles](https://learningai.io/projects/2017/07/28/ai-gym-workout.html) is beneficial.
+We also seem to gloss over the fact that we do not train the policy and value function to convergence between data collection cycles.
+Therefore, in practise we are always using an off-policy critic.
+
+
+For example, in the recent [PPO paper](https://arxiv.org/abs/1707.06347), a large amount of data is collect and then a iterative updates are applied to 
 
 ## Continuous Actor Critic Learning Automaton (CACLA)
 
