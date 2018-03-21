@@ -120,37 +120,43 @@ In practise this model learns estimates over the current policy mean in order to
 
 ## Trust Region Policy Optimization (TRPO)
 
-[TRPO](https://arxiv.org/abs/1502.05477) is a great algorithm with some very good theoretical properties. Stochastic policy optimization can be challenging because the stochasticity can change quickly. This in combination with the properties deep neural networks, in particular that deep nets like to recieve nice small gradients. When the stochasticity grows so do the gradients, when the gradients grow so to can (and usually does) the stochasticity of the policy. 
-TRPO uses congugate gradient decent with line search to optimize the policy parameters $\theta$ will applying a constraint the the KL divergence. The KL divergence constraint assist in keeping the stochastic distribution the policy models from changing to much between updates. 
+[TRPO](https://arxiv.org/abs/1502.05477) is a great algorithm with some very good theoretical properties. Stochastic policy optimization can be challenging because the policy distribution can change quickly after network updates. 
+This in combination with the properties of deep neural networks, in particular that deep nets like to receive nice small gradients, make learning challenging. 
+When the stochasticity grows so do the gradients, when the gradients grow so does the stochasticity of the policy. 
+TRPO uses conjugate gradient decent with line search to optimize the policy parameters $\theta$ with respect to a constraint on the KL divergence. 
+The KL divergence constraint assist in keeping the stochastic distribution the policy models from changing to much between updates. 
 
 **Pros:**
 
-1. TRPO can work very well and is known to even exibit monotonic policy improvements.
+1. TRPO can work very well and is known to even exhibit monotonic policy improvements.
 
 **Cons:**
 
 1. Challenging (impossible?) to use TRPO for things like recurrent neural networks.
-2. Lots of memory is needed to compute the Fisher vector product (AKA gradient vector product) of the paremters $\theta$
-3. Not easily paralizable.
+2. Lots of memory is needed to compute the Fisher vector product (AKA gradient vector product) of the parameters $\theta$
+3. Not easily parallelizable.
 
 ### Generalize Advantage Estimation (GAE)
 
+While not an RL algorithm GAE is used to reduce the variance in the advantage estimates for the policy.
 TRPO uses a KL divergence penalty to reduce the amount the policy distribution can shift between updates, however there can still be a significant variance in the advantage estimate.
 
 ![Pelican](images/DYmistifying/policyGrad.svg)
 
-Here we can see a set of states labeled with their advantage.
-The True policy gradient is visualized with the circles.
-One of the challenges with esitmating the Advantage is that it is based on the furture discounted reward. 
+Here we can see a set of states labelled with their future discounted reward;advantage (from samples);baseline.
+The True policy gradient is visualized with the ellipses.
+One of the challenges with estimating the Advantage is that it is based on the future discounted reward. 
 The agent could have randomly found some good reward for a few timesteps and then wondered into a very low reward area of the state space.
-This will result in a very low overall future discounted reward and a high Advantage for the states the agent was in the high reward area. 
-This advantage is good but for practicle reasons having widely different advantage values can lead to large and noisey gradients.
-[GAE](https://arxiv.org/abs/1506.02438) subtracts off the mean of the policy to reduce variance.
+This will result in a very low overall future discounted reward and a high Advantage for the states the agent explored in the high reward area. 
+This advantage is good but for practise reasons having widely different advantage values can lead to large and noisy gradients.
+[GAE](https://arxiv.org/abs/1506.02438) does something similar to subtracting off the expected discounted future reward for the policy to reduce variance.
+
+Here the advantage of a number of points in the state space is given.
 
 ![Pelican](images/DYmistifying/policyGradPlusMean.svg)
 
-Here the mean of the policy (aka baseline or value function estimate) is shown by the purple dot, label with the estimate. 
-This estimate changes the overall advantage, reducing it and making it more managable.
+Here the policy mean (aka baseline or value function) is shown by the purple dot, label with the estimate. 
+This estimate changes the overall advantage, reducing it and making it more manageable
 
 ## Proximal Policy Optimization (PPO)
 

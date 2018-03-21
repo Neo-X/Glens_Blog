@@ -26,13 +26,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="226.80226"
+     inkscape:cx="170.73083"
      inkscape:cy="142.77642"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1853"
-     inkscape:window-height="1025"
+     inkscape:window-height="1145"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -154,7 +154,7 @@
          id="tspan1011"
          x="87.696823"
          y="89.096733"
-         style="font-size:3.52777767px;stroke-width:0.26458332">687</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">687;52;670</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -165,7 +165,7 @@
          id="tspan1011-6"
          x="87.529564"
          y="112.45961"
-         style="font-size:3.52777767px;stroke-width:0.26458332">721</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">721;-35;725</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -176,7 +176,7 @@
          id="tspan1011-8"
          x="108.45765"
          y="92.324501"
-         style="font-size:3.52777767px;stroke-width:0.26458332">802</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">802;-32;798</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -187,7 +187,7 @@
          id="tspan1011-9"
          x="121.2954"
          y="108.41488"
-         style="font-size:3.52777767px;stroke-width:0.26458332">850</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">850;-3;912</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -198,7 +198,7 @@
          id="tspan1011-2"
          x="108.10931"
          y="132.30518"
-         style="font-size:3.52777767px;stroke-width:0.26458332">789</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">789;68;775</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -209,6 +209,6 @@
          id="tspan1011-7"
          x="64.745369"
          y="130.64227"
-         style="font-size:3.52777767px;stroke-width:0.26458332">639</tspan></text>
+         style="font-size:3.52777767px;stroke-width:0.26458332">639;108;607</tspan></text>
   </g>
 </svg>
