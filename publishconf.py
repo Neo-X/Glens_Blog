@@ -11,7 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # SITEURL = 'localhost/blog/'
-SITEURL = 'localhost/'
+# SITEURL = 'localhost/~gberseth/'
+SITEURL = ''
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

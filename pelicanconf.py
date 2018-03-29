@@ -3,8 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Glen Berseth'
-SITENAME = 'Glens Blog'
-SITEURL = 'localhost'
+SITENAME = 'Glen Berseth Blog'
+SITEURL = ''
+# SITEURL_ = 'www.fracturedplane.com'
+# SITEURL_ = '/blog'
+SITEURL_ = '/~gberseth/blog'
 
 PATH = 'content'
 
@@ -21,9 +24,10 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Home', '/'),
-         ('Publications', '/blog/category/publication.html'),
-         ('Projects', '/blog/category/project.html'),
-         ('Links', '/links.php'),
+         ('Publications', SITEURL_ + '/category/publication.html'),
+         ('Projects', SITEURL_ + '/category/project.html'),
+         ('Articles', SITEURL_ + '/category/article.html'),
+         ('Links', SITEURL_ + '/links.php'),
          )
 
 # Social widget

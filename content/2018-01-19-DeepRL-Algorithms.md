@@ -177,6 +177,16 @@ This estimate works to further reduce the advantage variance, However, [it might
 
 ##Discussion
 
+There has been a great amount of RL research that shows RL has promise and can find high value solutions.
+However, RL still suffers from a tenancy to get trapped in local minima.
+Some believe this is related to basic models we use for policy distributions.
+In this area some people have used parameter space noise exploration in stead of action space ([Parameter Space Noise for Exploration](https://arxiv.org/abs/1706.01905),[Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)).
+Others are doing work on better frameworks to exploit the data better.
+Still more work using [Stochastic Value Gradients](https://arxiv.org/abs/1510.09142) learns a model to optimize the stochastic bellman equation.
+[A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887) focuses on learning an approximate value distribution.
+A similar method has been applied to DDPG as well 
+[Distributed Distributional Deterministic Policy Gradients](https://openreview.net/forum?id=SyZipzbCb)
+
 There are still many more RL algorithms than the ones mentioned here. These are the ones that are popular and I am more familiar with.
 This post has followed a road map of how RL research has progressed, and why.
 There are many other aspects to consider when using an RL algorithm, such as: how difficult is the problem to be solved, how many dimensions is the action space, does the state include images, etc.
