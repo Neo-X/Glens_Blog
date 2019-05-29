@@ -1,0 +1,45 @@
+---
+Title: Model-Based Action Exploration for Learning Dynamic Motion Skills
+Date: 2018-09-25 10:20
+Modified: Thu, 25. September 2018 02:06PM 
+Category: Publication
+Tags: RL, DeepLearning, Simulation, ModelBasedRL
+Author: Glen Berseth
+comments: true
+---
+
+<div align="center">
+			<span class="STYLE17"> <img width="600" src="../projects/SMBAE/teaser.png"> </span>
+			<span class="STYLE17"> <img width="300" src="../projects/SMBAE/teaser2.png"> </span> &nbsp; &nbsp; &nbsp;
+
+</div>
+
+# Abstract
+
+Deep reinforcement learning has achieved great strides in solving challenging motion control tasks. Recently, there has been significant work on methods for exploiting the data gathered during training, but there has been less work on how to best generate the data to learn from. For continuous action domains, the most common method for generating exploratory actions involves sampling from a Gaussian distribution centred around the mean action output by a policy. Although these methods can be quite capable, they do not scale well with the dimensionality of the action space, and can be dangerous to apply on hardware. We consider learning a forward dynamics model to predict the result, $(x_{t+1})$, of taking a particular action, $(u_{t})$, given a specific observation of the state, $(x_{t})$. With this model we perform internal look-ahead predictions of outcomes and seek actions we believe have a reasonable chance of success. This method alters the exploratory action space, thereby increasing learning speed and enables higher quality solutions to difficult problems, such as robotic locomotion and juggling
+
+
+## Files
+
+[Paper](../projects/SMBAE/MBAE_paper.pdf)
+[Code](https://github.com/FracturedPlane/SMBAE)
+
+## Videos!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjomPyWZRhY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Bibtex
+
+```
+@inproceedings{2018-IROS-MBAE,
+  title={Model-Based Action Exploration for Learning Dynamic Motion Skills},
+  author={Glen Berseth and Alex Kyriazis and Ivan Zinin and William Choi and Michiel van de Panne},
+  booktitle = {Proc. IEEE/RSJ Intl Conf on Intelligent Robots and Systems (IROS 2018)},
+  year={2018}
+}
+```
+
+### Acknowledgements
+
+We thank the anonymous reviewers for their helpful feedback. This research was funded in part by an NSERC Discovery Grant (RGPIN-2015-04843).
+
