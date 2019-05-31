@@ -19,6 +19,10 @@ Imitation learning, the ability to copy an expert’s behaviour, is a challengin
 
 ### Distance Learning
 
+Similar low reward
+
+Using only the temporal distance is not enough to mimic the expert demonstration and often results in motion that just looks like it comes from a similar class.
+
 Often, imitation is structured as a distribution matching problem where we want to minimize a distance function that differentiates between behaviour that is close to the expert demonstration. If we have access to the expert’s actions we can use semi-supervised learning to have the agent act in the world and ask the expert what it would have done. However, we rarely have access to such data in the real world. Instead, we can use our visual perceptions to observe the expert and attempt actions until what we do matches what was observed. This leads to two challenges. First, understanding if the agent’s behaviour matches the expert given only video data, by creating a meaningful distance metric. Second, getting the agent to learn the actions necessary to match the expert.
 
 While there has been work on imitation strategies from images for manipulation [[BAIR](https://bair.berkeley.edu/blog/2018/06/28/daml/)] and 2D robots [[GoogleBrain](https://sites.google.com/view/actionablerepresentations)], the challenge of 3D imitation from video is an important milestone. Previous methods have made progress on imitation from images, by learning a transformation of images such that in this transformed space, meaningful distances are available. However, the problem of learning meaningful representations for planning or imitation is far from solved. A critical aspect of imitating a motion is the motions sequential and causal nature. The motion has both an ordering and a speed.
