@@ -2,7 +2,9 @@
 layout: post
 title: Basic Reinforcement Learning Example using Logistic Regression
 date: '2015-11-21T23:30:00.000-08:00'
-author: Glen B
+author: Glen Berseth
+Summary: Reinforcement learning has been shown to solve complex problems. Recently it has been used with great success by google DeepMind playing Atari games. The success is great but understanding the basic of some of these frameworks/algorithms can be daunting. In this post I hope to eliminate some of the mental entropy caused by trying to understand how and why the algorithms work. I will focus on Logistic Regression as it is a simple and if we can understand this model then more complex models are far easier to comprehend.
+Cover: <div> <img width="100%" src="../projects/RL-Tutorial/png;base6410904ea72159048b.png"/> </div>
 tags: 
 modified_time: '2015-11-22T11:33:04.367-08:00'
 thumbnail: https://lh6.googleusercontent.com/PlB0acaHdt95odVI-iTHbAKBNdyeLSABMAAUOUfsddWFLU4EFNavZHjDu2VkItu_n_Z5rvKlhgwQIq8nKSPfoT44rzMbVKTsbZZrureqoTzX9XNHdGhTPF75W_H2qYRJG4dM3Td_=s72-c

@@ -2,7 +2,7 @@
 layout: post
 title: Handling Segfaults in Python that occur in custom C++ libraries
 date: '2015-05-04T00:03:00.000-07:00'
-author: Glen B
+author: Glen Berseth
 tags: 
 modified_time: '2015-05-04T12:01:36.434-07:00'
 blogger_id: tag:blogger.com,1999:blog-2030049895335802245.post-485865010738923664

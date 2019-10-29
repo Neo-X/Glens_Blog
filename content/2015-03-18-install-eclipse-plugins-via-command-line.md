@@ -2,7 +2,7 @@
 layout: post
 title: Install eclipse plugins via the command line
 date: '2015-03-18T16:40:00.001-07:00'
-author: Glen B
+author: Glen Berseth
 tags: 
 modified_time: '2015-03-18T16:45:31.520-07:00'
 thumbnail: http://3.bp.blogspot.com/-jWRlDTh83u4/VQoMweohwWI/AAAAAAAABOk/aliIBGZtx2k/s72-c/Eclipse%2BBlugins%2Bnames.png

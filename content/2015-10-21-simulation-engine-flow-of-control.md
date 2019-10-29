@@ -2,7 +2,8 @@
 layout: post
 title: Animation/Simulation System flow of control
 date: '2015-10-21T21:56:00.001-07:00'
-author: Glen B
+author: Glen Berseth
+Summary: Simulation for animation is no easy task. There are many steps when constructing an animation and figuring out when particular data should be instantiated can be tricky. I am going to go over one method I have been using to help organize the steps and structure that could be used to construct the simulation flow of control.
 tags: 
 modified_time: '2015-10-22T20:34:56.269-07:00'
 blogger_id: tag:blogger.com,1999:blog-2030049895335802245.post-6197106026906603471

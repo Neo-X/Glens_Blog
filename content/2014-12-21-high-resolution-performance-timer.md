@@ -2,11 +2,9 @@
 layout: post
 title: High Resolution performance timer
 date: '2014-12-21T13:01:00.002-08:00'
-author: Glen B
-tags:
-- Linux
-- C++
-- HighResolutionTimer
+author: Glen Berseth
+Summary: I recently stumbled across this issue because I was trying to compile some code on an ARM based computer. There was code in the program I wanted to compile that uses assembly! I am not going to get into the details over which method might be faster or has higher resolution. From what I have learned this is the most compact and portable code to use if you want a high resolution counter that can be used for something like performance profiling.
+tags: Linux, C++, HighResolutionTimer
 modified_time: '2014-12-21T13:02:09.403-08:00'
 blogger_id: tag:blogger.com,1999:blog-2030049895335802245.post-2778979455722046450
 blogger_orig_url: http://fracturedplane.blogspot.com/2014/12/high-resolution-performance-timer.html

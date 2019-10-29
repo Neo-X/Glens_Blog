@@ -2,8 +2,9 @@
 layout: post
 title: Using SWIG to wrap C++ for Python
 date: '2015-10-25T19:25:00.001-07:00'
-author: Glen B
+author: Glen Berseth
 tags: 
+Summary: In order to be able to access the C++ code from Python (or other languages) I have wrapped some of the functionality using SWIG ([Simple Wrapper Interface Generator](http://www.swig.org/)). There is a short tutorial on [this page](http://www.swig.org/tutorial.html) which covers some of the basics, however this is not enough. I am going to want to wrap far more complex data types and classes.
 modified_time: '2015-10-25T19:26:47.568-07:00'
 blogger_id: tag:blogger.com,1999:blog-2030049895335802245.post-9081899229030898327
 blogger_orig_url: http://fracturedplane.blogspot.com/2015/10/using-swig-to-wrap-c-for-python.html

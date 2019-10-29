@@ -4,10 +4,11 @@ Date: 2014-05-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Project
 Tags: CrowdSimulation, CrowdEvacuation, SteerSim, Optimization
-Author: Glen B
+Author: Glen Berseth
+Summary: Optimizing Simulated Crowd Behaviour is the title of my master thesis and is the culmination of two pieces of work <a href="steerplex.html">SteerPlex</a> and <a href="steerfit.html">SteerFit</a>. 
 ---
 
-Optimizing Simulated Crowd Behaviour is the title of my master thesis and is the culmination of two pieces of work <a href="SteerPlex.php">SteerPlex</a> and <a href="SteerPlex.php">SteerFit</a>. 
+Optimizing Simulated Crowd Behaviour is the title of my master thesis and is the culmination of two pieces of work <a href="steerplex.html">SteerPlex</a> and <a href="steerfit.html">SteerFit</a>. 
 
 ## Abstract
 

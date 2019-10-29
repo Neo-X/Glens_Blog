@@ -2,7 +2,7 @@
 layout: post
 title: Knowledge vs Information
 date: '2015-05-01T15:06:00.003-07:00'
-author: Glen B
+author: Glen Berseth
 tags: 
 modified_time: '2016-05-17T15:20:47.577-07:00'
 thumbnail: https://3.bp.blogspot.com/-0lxtGQzgjq0/VUP4SCG4CMI/AAAAAAAABR0/ill1awXb6cg/s72-c/Knowledge_data.png
