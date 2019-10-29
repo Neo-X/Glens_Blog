@@ -14,11 +14,14 @@ from pelicanconf import *
 # SITEURL = 'localhost/~gberseth/'
 SITEURL = ''
 RELATIVE_URLS = True
+SITEIMAGE = '../images/glen_new.jpg'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
+
+THEME_CSS_OVERRIDES = ['theme/css/bootstrap.css']
 
 # Following items are often useful when publishing
 

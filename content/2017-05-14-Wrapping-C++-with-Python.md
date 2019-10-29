@@ -4,7 +4,8 @@ Date: 2017-05-14 10:20
 Modified: 2017-05-15 19:30
 Category: ReinforcementLeanring
 Tags: RL, Python, SWIG, Authors
-Author: Glen B
+Summary: These days many people want to use one of many new libraries written in python to train deep learning models. In general Python has many powerful and easy to use libraries for performing machine learning. However, many appications that generate data that we want to learn are written in other languages. In particular many simulators for RL applications are written in C++. Here I am going to focus on an interface I have found useful for wrapping physics-based simulators in C++.
+Author: Glen Berseth
 ---
 
 # Intro
