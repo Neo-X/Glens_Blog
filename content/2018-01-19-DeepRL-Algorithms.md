@@ -4,7 +4,7 @@ Date: 2018-01-10 10:20
 Modified: 14. Feb 2018 02:06PM 
 Category: Article
 Tags: RL, DeepLearning
-Author: Glen Berseth
+Authors: Glen Berseth
 Summary: In recent years, there has been an explosion in Deep Reinforcement learning research resulting in the creation of many different RL algorithms that work with deep networks. In DeepRL and RL, in general, the goal is to optimize a policy $\pi(a|s,\theta)$ with parameters $\theta$ with respect to the future discounted reward. $$J(\pi) = \mathbb{E} [\sum_\limits{t=0}^{T} \gamma^{t} r_{t}] $$ It can be difficult to keep track of the many algorithms let alone their properties and when it is best to use which one. In this post, I make an effort to organize several RL methods into a few groups. This organization helps clear up some misconceptions of different algorithms and demystifies what these properties mean, for example, on-policy vs off-policy.
 
 comments: true
