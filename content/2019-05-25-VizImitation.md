@@ -5,7 +5,7 @@ Modified: Thu, 25. May 2019 02:06PM
 Category: Publication
 Tags: RL, DeepLearning, Simulation, Imitation Learning
 Author: Glen Berseth
-Cover: <img width="600" src="./images/VizImitation/agresive-walk.gif">
+Cover: <img width="600" src="/images/VizImitation/agresive-walk.gif">
 Authors: Glen Berseth, Christopher Pal
 summary: Imitation learning, the ability to reproduce some behaviour, is a challenging and vital problem. It is what enables animals with the ability to understand and mimic from observation. Many SoTA methods for imitation accomplish this via additional data that is often not available in the real world. For example, along with an expert's joint positions, the torques used by the expert are available as well. In this work, we describe a learning system that allows an agent to reproduce imitative behaviour of 3D simulated robots from video. This progress will enable us to create robots that can learn behaviour from observing humans, and allow humans to instruct robots in a very natural form of instruction.
 comments: true

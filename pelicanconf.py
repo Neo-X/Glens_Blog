@@ -8,6 +8,7 @@ SITEURL = ''
 # SITEURL_ = 'www.fracturedplane.com'
 # SITEURL_ = '/blog'
 SITEURL_ = '/~gberseth/blog'
+SITEURL_ = ''
 
 PATH = 'content'
 
