@@ -29,6 +29,7 @@ LINKS = (('Home', '/'),
          ('Projects', SITEURL_ + '/category/project.html'),
          ('Articles', SITEURL_ + '/category/article.html'),
          ('Links', SITEURL_ + '/links.php'),
+         ('Info', SITEURL_ + '/info.html'),
          )
 
 # Social widget
