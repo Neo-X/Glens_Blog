@@ -16,6 +16,6 @@ This report is a study on the effects of clause to variable ratio when checking 
 ## Files
 
 [comment]: <> ([Bibtex](../files/bibtex/EnvironmentOpt.bib))
-[Paper](../projects/USAT/USATReport.pdf)
-[comment]: <> ([Presentation](../projects/GameLevelOptimization/paper_errata.pdf))
+[Paper](/~gberseth/~gberseth/projects/USAT/USATReport.pdf)
+[comment]: <> ([Presentation](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf))
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))

@@ -5,12 +5,12 @@ Modified: Sunday, 21. May 2016 02:06PM
 Category: Publication
 Tags: News, CrowdSimulation, Architecture
 Author: Glen B
-Cover: <div> <img width="100%" src="../projects/CODE/Teaser_long.png"/> </div>
+Cover: <div> <img width="100%" src="/~gberseth/projects/CODE/Teaser_long.png"/> </div>
 Authors: Brandon Haworth, Muhammad Usman, Glen Berseth, Mahyar Khayatkhoei, Mubbasir Turab Kapadia, Petros Faloutsos
 Summary: We present a preliminary exploration of synthetic crowds towards computational tools for informing the design of environments (e.g., building floor plans). Feedback and automatic design processes are developed from exploring crowd behaviours and metrics derived from simulations of environments in density stressed scenarios, such as evacuations. Computational approaches for crowd analysis and environment design benefit from measures characterizing the relationships between environments and crowd flow behaviours. We investigate the optimization of environment elements to maximize crowd flow, under a range of LoS conditions, a standard indicator for characterizing the service afforded by environments to crowds of specific densities widely used in crowd management and urban design. The steering algorithm, the number of optimized environment elements, the scenario configuration and the LoS conditions affect the optimal configuration of environment elements. From the insights gained exploring optimizations under LoS conditions, we take steps towards user-in-the-loop optimization and design of an environment by applying an adaptive refinement approach to reduce the search space of the optimization. We derive the fitness of architectural layouts from background simulations. We perform a ground truth study to gauge the performance and quality of our method. 
 ---
 		
-Cover: <div> <img width="100%" src="../projects/CODE/Teaser_long.png"/> </div>
+Cover: <div> <img width="100%" src="/~gberseth/projects/CODE/Teaser_long.png"/> </div>
 
 
 ## Abstract

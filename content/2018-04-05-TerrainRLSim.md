@@ -30,7 +30,7 @@ The library also provides simple mechanisms to create new environments with diff
 
 ## Files
 
-[Paper](../projects/TerrainRLSim/paper.pdf)
+[Paper](/~gberseth/~gberseth/projects/TerrainRLSim/paper.pdf)
 [Code](https://github.com/UBCMOCCA/TerrainRLSim)
 
 ## Videos!

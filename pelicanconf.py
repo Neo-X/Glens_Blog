@@ -7,7 +7,7 @@ SITENAME = 'Glen Berseth'
 SITEURL = ''
 # SITEURL_ = 'www.fracturedplane.com'
 # SITEURL_ = '/blog'
-SITEURL_ = '/~gberseth/blog'
+# SITEURL_ = '/~gberseth/'
 SITEURL_ = ''
 
 PATH = 'content'
@@ -28,7 +28,7 @@ LINKS = (('Home', '/'),
          ('Publications', SITEURL_ + '/category/publication.html'),
          ('Projects', SITEURL_ + '/category/project.html'),
          ('Articles', SITEURL_ + '/category/article.html'),
-         ('Links', SITEURL_ + '/links.php'),
+         ('Links', SITEURL_ + '/links.html'),
          ('Info', SITEURL_ + '/info.html'),
          )
 

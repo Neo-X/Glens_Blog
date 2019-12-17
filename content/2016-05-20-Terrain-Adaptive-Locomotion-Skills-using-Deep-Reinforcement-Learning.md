@@ -6,18 +6,18 @@ Category: Publication
 Tags: News, RL, CharacterAnimation
 Author: Glen Berseth
 Authors: Xue Bin Peng, Glen Berseth, Michiel van de Panne
-Cover: <div> <img width="100%" src="../projects/deeprl/dog_teaser.png"/> <img width="230" src="../projects/deeprl/goat_teaser.png"/> </div>
+Cover: <div> <img width="100%" src="/~gberseth/projects/deeprl/dog_teaser.png"/> <img width="230" src="/~gberseth/projects/deeprl/goat_teaser.png"/> </div>
 Summary: Reinforcement learning offers a promising methodology for developing skills for simulated characters, but typically requires working with sparse hand-crafted features. Building on recent progress in deep reinforcement learning (DeepRL), we introduce a mixture of actor-critic experts (MACE) approach that learns terrain-adaptive dynamic locomotion skills using high-dimensional state and terrain descriptions as input, and parameterized leaps or steps as output actions. MACE learns more quickly than a single actor-critic approach and results in actor-critic experts that exhibit specialization. Additional elements of our solution that contribute towards efficient learning include Boltzmann exploration and the use of initial actor biases to encourage specialization. Results are demonstrated for multiple planar characters and terrain classes.
 ---
 
 <table width="100%">
 	<tr width="100%">
 		<td width="55%" align="center">
-		<img width="100%" src="../projects/deeprl/dog_teaser.png"/>
+		<img width="100%" src="/~gberseth/projects/deeprl/dog_teaser.png"/>
 		</td>
 		
 		<td width="35%" align="center">
-		<img width="230" src="../projects/deeprl/goat_teaser.png"/>
+		<img width="230" src="/~gberseth/projects/deeprl/goat_teaser.png"/>
 		</td>
 	</tr>
 </table>	
@@ -28,7 +28,7 @@ Reinforcement learning offers a promising methodology for developing skills for 
 
 ## Files
 
-[Paper](../projects/deeprl/2016-TOG-deepRL.pdf)
+[Paper](/~gberseth/~gberseth/projects/deeprl/2016-TOG-deepRL.pdf)
 [Bibtex](../files/bibtex/TerrainDeepRL.bib)
 
 ## Videos!

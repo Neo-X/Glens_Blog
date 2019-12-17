@@ -11,14 +11,14 @@ Author: Glen B
 	<table width="100%">
 		<tr width="100%">
 			<td width="45%" align="center">
-				<img src="../projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>
+				<img src="/~gberseth/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>
 				<p>
 					Randomized, continuous footstep action space.
 				</p>
 			</td>
 			
 			<td width="45%" align="center">
-				<img src="../projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>
+				<img src="/~gberseth/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>
 				<p>
 					Geometric validation to ensure valid configuration.
 				</p>
@@ -50,7 +50,7 @@ A number of  recent agent-based steering methods abandon the standard particle  
 <h2 class="paperTitle">
 	Recieved CASA2015 Best Short Paper Award
 </h2>
-<img src="../projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
+<img src="/~gberseth/projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
 
 <p>
 	Photo - From Left to Right: Glen Berseth and Prof Jian Jun Zhang
@@ -60,8 +60,8 @@ A number of  recent agent-based steering methods abandon the standard particle  
 
 ## Files
 
-[Bibtex](../projects/RobustFootsteps/2015-casa-robust-footsteps.bib)
-[Paper](../projects/RobustFootsteps/robustfootsteps.pdf)
-[Presentation](../projects/RobustFootsteps/RobustFootstepSteering-Compressed.pptx)
+[Bibtex](/~gberseth/~gberseth/projects/RobustFootsteps/2015-casa-robust-footsteps.bib)
+[Paper](/~gberseth/~gberseth/projects/RobustFootsteps/robustfootsteps.pdf)
+[Presentation](/~gberseth/~gberseth/projects/RobustFootsteps/RobustFootstepSteering-Compressed.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 
