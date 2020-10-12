@@ -46,12 +46,12 @@ Here a table of popular RL algorithms is given.
  <table width='100%'>
  <tr width='100%'>
      <td>
-          <img src="images/DYmistifying/actionDist.png" width="90%"/>
+          <img src="projects/DYmistifying/actionDist.png" width="90%"/>
           </br>
           Original action selection probability
     </td>
      <td>
-          <img src="images/DYmistifying/actionDistEpsilon.png" width="90%"/>
+          <img src="projects/DYmistifying/actionDistEpsilon.png" width="90%"/>
             <br/>
           with epsilon greedy
     </td>
@@ -86,7 +86,7 @@ Therefore, in practice, we are always using an off-policy critic.
 
 [A3C](https://arxiv.org/abs/1602.01783) can be thought of as a modification of CACLA in at least two ways. The MSE loss is traded with a log-likelihood loss, and the score function is exchanged for a multi-step return estimation. 
 Switching to a log-likelihood loss allows us to model the distribution of action better, including the policy variance. 
-In the case of continuous actions, the policy is modelled as a vector of Gaussian distributions. 
+In the case of continuous actions, the policy is modeled as a vector of Gaussian distributions. 
 This allows for a better trade-off between the bias of the value function and the variance in Monte-Carlo samples from the simulation allows us to include a loss for the variance in the policy. Now we can update the amount of exploration we think the policy should be performing in an on-policy state-dependent manner.
 
 **Pros:**
@@ -133,7 +133,7 @@ The use of a KL constraint assists in keeping the policy's stochastic distributi
 
 **Cons:**
 
-1. Challenging (impossible?) to use TRPO for things like recurrent neural networks.
+1. Challenging to use TRPO for things like recurrent neural networks.
 2. Lots of memory is needed to compute the Fisher vector product (AKA gradient vector product) of the parameters $\theta$
 3. Not easily parallelizable.
 
@@ -142,9 +142,9 @@ The use of a KL constraint assists in keeping the policy's stochastic distributi
 While not an RL algorithm, GAE is used to reduce the variance in the advantage estimates for the policy.
 TRPO uses a KL divergence penalty to reduce the amount the policy distribution can shift between updates. However, there can still be a significant variance in the advantage estimate.
 
-![Pelican](images/DYmistifying/policyGrad.svg)
+![Pelican](projects/DYmistifying/policyGrad.svg)
 
-Here we can see a set of states labelled with their future discounted reward;advantage (from samples);baseline.
+Here we can see a set of states labeled with their future discounted reward;advantage (from samples);baseline.
 The True policy gradient is visualized with the ellipses.
 One of the challenges with estimating the Advantage is that it is based on the future discounted reward. 
 The agent could have randomly found some suitable reward for a few timesteps and then wandered into a very low reward area of the state space.
@@ -174,7 +174,7 @@ The goal is to combine the gradients from DDPG with unbiased on-policy data. Met
 
 $$\Delta_{\theta} J(\theta) = E_{\rho \pi}[\Delta_{\theta}~log~\pi(a|s,\theta)(\hat{A}(s_t,a_t) - \bar{A}_w(s_t, a_t)] + E_{\rho \pi} [\Delta_a Q_w(s_t, a)|_a=\mu(s_t,\theta)\Delta_\theta \mu(s_t, \theta)]$$
 
-This estimate works to reduce the advantage variance further, However, [it might not be so clear that this method helps](https://arxiv.org/abs/1802.10031).
+This estimate works to reduce the advantage variance further, However, [it might not be so clear that this method is an imrovement](https://arxiv.org/abs/1802.10031).
 
 ##Discussion
 
