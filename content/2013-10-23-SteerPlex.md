@@ -51,7 +51,7 @@ The complexity of interactive virtual worlds has increased dramatically in recen
 </p>
 
 [comment]: <> ( [Bibtex](../files/bibtex/EnvironmentOpt.bib))
-[Paper](../projects/SteerPlex/SteerPlex.pdf)
+[Paper](/~gberseth/~gberseth/projects/SteerPlex/SteerPlex.pdf)
 [Presentation](../presentations/SteerPlex/reveal-pres.html)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

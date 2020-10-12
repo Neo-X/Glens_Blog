@@ -18,7 +18,7 @@ We present a preliminary exploration of an architectural optimization process to
 
 ## Files
 
-[Paper](../projects/acclmesh/CHI_2016_CODE.pdf)
+[Paper](/~gberseth/~gberseth/projects/acclmesh/CHI_2016_CODE.pdf)
 [Bibtex](../files/bibtex/code.bib)
 
 ## Videos!

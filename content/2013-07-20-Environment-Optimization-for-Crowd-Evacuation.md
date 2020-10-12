@@ -7,7 +7,7 @@ Tags: CrowdSimulation, CrowdEvacuation, SteerSim
 Author: Glen B
 ---
 
-<img src="../projects/EnvironmentOpt/teaser.png" width="400px"/>
+<img src="/~gberseth/projects/EnvironmentOpt/teaser.png" width="400px"/>
 
 Sequence of images show the increased crowd flow as a result of pillar optimiation.
 
@@ -20,7 +20,7 @@ The layout of a building, real or virtual, affects the flow patterns of its inte
 ## Files
 
 [Bibtex](../files/bibtex/EnvironmentOpt.bib)
-[Paper](../projects/EnvironmentOpt/ArchOpt.pdf)
-[Presentation](../projects/GameLevelOptimization/paper_errata.pdf)
+[Paper](/~gberseth/~gberseth/projects/EnvironmentOpt/ArchOpt.pdf)
+[Presentation](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

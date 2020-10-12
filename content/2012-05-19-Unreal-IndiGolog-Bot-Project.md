@@ -117,7 +117,7 @@ Below are videos of gameplay recorded for the project to demonstrate some simple
 ## Files
 
 [Bibtex](../files/bibtex/EnvironmentOpt.bib)
-[Paper](../projects/EnvironmentOpt/ArchOpt.pdf)
-[Presentation](../projects/GameLevelOptimization/paper_errata.pdf)
+[Paper](/~gberseth/~gberseth/projects/EnvironmentOpt/ArchOpt.pdf)
+[Presentation](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

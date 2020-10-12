@@ -40,9 +40,9 @@ To exemplify the usefulness of the framework, we show that small changes in leve
 ## Files
 
 [Bibtex](../files/bibtex/gameLevelOpt.bib)
-[Paper](../projects/GameLevelOptimization/mig2014_submission_15.pdf)
-[Errata](../projects/GameLevelOptimization/paper_errata.pdf)
-[Presentation] (../projects/GameLevelOptimization/ProceduralOptimization-Presentation.pptx)
+[Paper](/~gberseth/~gberseth/projects/GameLevelOptimization/mig2014_submission_15.pdf)
+[Errata](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf)
+[Presentation] (/~gberseth/~gberseth/projects/GameLevelOptimization/ProceduralOptimization-Presentation.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 
 
