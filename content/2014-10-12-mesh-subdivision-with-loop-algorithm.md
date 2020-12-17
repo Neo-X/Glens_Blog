@@ -5,9 +5,7 @@ date: '2014-10-12T13:25:00.000-07:00'
 author: Glen Berseth
 tags: 
 modified_time: '2014-10-12T13:34:19.882-07:00'
-thumbnail: http://3.bp.blogspot.com/-AICgkcR7QK0/VDrdccOm27I/AAAAAAAAA7o/MSfZ_KHUIMg/s72-c/camel_simple_wire.png
-blogger_id: tag:blogger.com,1999:blog-2030049895335802245.post-3739055362363251644
-blogger_orig_url: http://fracturedplane.blogspot.com/2014/10/mesh-subdivision-with-loop-algorithm.html
+Cover: <div> <img width="45%" src="http://www.fracturedplane.com/projects/subdivision/CowHead-1.png"/> <img width="45%" src="http://www.fracturedplane.com/projects/subdivision/CowHead-2.png"/> </div>
 Summary: Recently I have been learning more about polygonal meshes and operations you can perform on them. One of the first operations that can be done on a mesh, that is a kind of cool, is subdivision. The basic idea is that you have a mesh that is very course (few polygons, rough) and we want a method that can construct a smoother mesh from this course mesh. This has been a popular method for constructing extremely smooth meshes for movies for many years.
 ---
 

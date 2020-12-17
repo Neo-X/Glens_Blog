@@ -4,8 +4,12 @@ Date: 2014-05-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Publication
 Tags: CrowdSimulation, CrowdEvacuation, SteerSim
-Author: Glen B
+Author: Glen Berseth
+Cover:	<img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>	
+Summary: SteerPlex works to define a salient set of scenario features that can be used to identify the relative complexity of a steering scenario. 
 ---
+
+<div> <img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>		 </div>
 
 SteerPlex works to define a salient set of scenario features that can be used to identify the relative complexity of a steering scenario. 
 
@@ -18,9 +22,7 @@ The complexity of interactive virtual worlds has increased dramatically in recen
 		This video demonstrates some of the example results of parameter optimization.
 	</p>
 	<video controls poster="images/FirstFrameFastAttack.png" width="720" height="410">
-	  <source type="video/mp4" src="projects/SteerPlex/FeatureSpace.mp4"></source>
-	  <source type="video/webm" src="projects/SteerPlex/FeatureSpace.webm"></source>
-	  <!-- <source type="video/ogv" src="projects/SteerFit/ParamOptFFVideo1.5.ogv"></source> -->
+	  <source type="video/mp4" src="projects/SteerPlex/2013-mig-steerplex.mp4"></source>
 	  Your browser does not support the encoded video.
 	</video>
 </article>
@@ -50,8 +52,7 @@ The complexity of interactive virtual worlds has increased dramatically in recen
 } 
 </p>
 
-[comment]: <> ( [Bibtex](../files/bibtex/EnvironmentOpt.bib))
-[Paper](/~gberseth/~gberseth/projects/SteerPlex/SteerPlex.pdf)
-[Presentation](../presentations/SteerPlex/reveal-pres.html)
+[Paper](http://www.fracturedplane.com/projects/SteerPlex/2013-mig-steerplex.pdf)
+[Presentation](http://www.fracturedplane.com/presentations/SteerPlex/reveal-pres.html)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

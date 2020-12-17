@@ -4,21 +4,22 @@ Date: 2014-05-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Publication
 Tags: RealTimePlanning, CrowdSimulation, SteerSim
-Author: Glen B
+Author: Glen Berseth
+Cover: <table width="100%">		<tr width="100%">			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>				<p>					Randomized, continuous footstep action space.				</p>			</td>			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>				<p>					Geometric validation to ensure valid configuration.				</p>			</td>		</tr>	</table>
+Summary: With this work we build upon prevous work to inductavely design a robust footsteps-based steering algorithm. The steering algorithm uses an A* algorithm to generate least cost footstep plans between goals while avoiding dynamic collisions. 
 ---
 
 <article>
 	<table width="100%">
 		<tr width="100%">
 			<td width="45%" align="center">
-				<img src="/~gberseth/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>
+				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>
 				<p>
 					Randomized, continuous footstep action space.
 				</p>
 			</td>
-			
 			<td width="45%" align="center">
-				<img src="/~gberseth/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>
+				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>
 				<p>
 					Geometric validation to ensure valid configuration.
 				</p>
@@ -39,8 +40,8 @@ A number of  recent agent-based steering methods abandon the standard particle  
 	This video demonstrates some of the example results of robust footsteps algorithm.
 </p>
 <video width="720" height="410" controls>
-  <source type="video/mp4" src="projects/RobustFootsteps/2015-casa-robust-footsteps.mp4"></source>
-  <source type="video/webm" src="projects/RobustFootsteps/Footsteps_Robust.webm"></source>
+  <source type="video/mp4" src="http://www.fracturedplane.com/projects/RobustFootsteps/2015-casa-robust-footsteps.mp4"></source>
+  <source type="video/webm" src="http://www.fracturedplane.com/projects/RobustFootsteps/Footsteps_Robust.webm"></source>
   							
   Your browser does not support the encoded video.
 </video>
@@ -50,7 +51,7 @@ A number of  recent agent-based steering methods abandon the standard particle  
 <h2 class="paperTitle">
 	Recieved CASA2015 Best Short Paper Award
 </h2>
-<img src="/~gberseth/projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
+<img src="http://www.fracturedplane.com/projects/RobustFootsteps/Best_Short_Paper.jpg" width="100%"/>
 
 <p>
 	Photo - From Left to Right: Glen Berseth and Prof Jian Jun Zhang
@@ -60,8 +61,8 @@ A number of  recent agent-based steering methods abandon the standard particle  
 
 ## Files
 
-[Bibtex](/~gberseth/~gberseth/projects/RobustFootsteps/2015-casa-robust-footsteps.bib)
-[Paper](/~gberseth/~gberseth/projects/RobustFootsteps/robustfootsteps.pdf)
-[Presentation](/~gberseth/~gberseth/projects/RobustFootsteps/RobustFootstepSteering-Compressed.pptx)
+[Bibtex](http://www.fracturedplane.com/projects/RobustFootsteps/2015-casa-robust-footsteps.bib)
+[Paper](http://www.fracturedplane.com/projects/RobustFootsteps/robustfootsteps.pdf)
+[Presentation](http://www.fracturedplane.com/projects/RobustFootsteps/RobustFootstepSteering-Compressed.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

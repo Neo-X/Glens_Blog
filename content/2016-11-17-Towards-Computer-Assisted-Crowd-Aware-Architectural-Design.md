@@ -18,8 +18,28 @@ We present a preliminary exploration of an architectural optimization process to
 
 ## Files
 
-[Paper](/~gberseth/~gberseth/projects/acclmesh/CHI_2016_CODE.pdf)
-[Bibtex](../files/bibtex/code.bib)
+[Paper](http://www.fracturedplane.com/projects/acclmesh/CHI_2016_CODE.pdf)
+
+### Bibtex
+
+```
+@inproceedings{10.1145/2851581.2892360,
+author = {Haworth, Brandon and Usman, Muhammad and Berseth, Glen and Khayatkhoei, Mahyar and Kapadia, Mubbasir and Faloutsos, Petros},
+title = {Towards Computer Assisted Crowd Aware Architectural Design},
+year = {2016},
+isbn = {9781450340823},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2851581.2892360},
+doi = {10.1145/2851581.2892360},
+booktitle = {Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+pages = {2119–2125},
+numpages = {7},
+keywords = {user-in-the-loop design, architectural optimization, crowd simulation},
+location = {San Jose, California, USA},
+series = {CHI EA '16}
+}
+```
 
 ## Videos!
 

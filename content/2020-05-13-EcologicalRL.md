@@ -7,7 +7,7 @@ Tags: ReinforcementLearning
 Author: Glen Berseth
 Authors: John D. Co-Reyes, Suvansh Sanjeev, Glen Berseth, Abhishek Gupta, Sergey Levine
 Link: https://sites.google.com/view/ecological-rl/home
-Cover: <div align="center">       <img width="50%" src="/projects/EcologicalRL/moivation.png"> </div>
+Cover: <div align="center">       <img width="50%" src="http://www.fracturedplane.com/projects/EcologicalRL/moivation.png"> </div>
 summary: Reinforcement learning is normally studied in the episodic setting where the agent is reset each episode. This makes learning easier but in the real world, we would like our agent to continually learn with minimal human supervision and without having to manually reset the agent each time it makes a mistake. Reset-free or non-episodic learning is difficult, especially with sparse reward where the agent may never experience any rewarding states and not make any progress. Without any algorithmic changes however, certain properties of the environment can make learning without resets and with sparse reward more tractable. We investigate and analyze these properties: environment shaping and environment dynamism.  
 comments: true
 ---
@@ -31,7 +31,7 @@ Reinforcement learning is normally studied in the episodic setting where the age
 
 
 <div align="center">
-            <img width="80%" src="/projects/EcologicalRL/moivation.png">
+            <img width="80%" src="http://www.fracturedplane.com/projects/EcologicalRL/moivation.png">
 </div>
 
 ## Evnvironent Properties
@@ -45,7 +45,7 @@ alters the initial state or dynamics of the non-episodic training MDP to make le
 refers to the MDP transition entropy regardless of the agent's actions and provides a soft uniform reset mechanism for the agent, helping it reach a wider variety of states in the non-episodic setting. A static environment might correspond to a very controlled setting where no other entity or part of the environment changes on its own while a dynamic environment would involve the opposite of this. Dynamics environments can be found readily in the real world (humans and other agents provide natural dynamism) and so we may just need to deploy our agents in these existing settings.
     
 <div align="center">
-            <img width="60%" src="/projects/EcologicalRL/env_properties.png">
+            <img width="60%" src="http://www.fracturedplane.com/projects/EcologicalRL/env_properties.png">
 </div>
     
 

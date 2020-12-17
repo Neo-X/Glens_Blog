@@ -4,24 +4,20 @@ Date: 2017-05-14 10:20
 Modified: 2017-05-15 19:30
 Category: ReinforcementLeanring
 Tags: RL, Python, SWIG, Authors
-Summary: These days many people want to use one of many new libraries written in python to train deep learning models. In general Python has many powerful and easy to use libraries for performing machine learning. However, many appications that generate data that we want to learn are written in other languages. In particular many simulators for RL applications are written in C++. Here I am going to focus on an interface I have found useful for wrapping physics-based simulators in C++.
+Summary: These days, many people want to use one of many new libraries written in python to train deep learning models. In general, python has many powerful and easy to use libraries for performing machine learning. However, many applications that generate data are written in other languages. In particular, many simulators for RL applications are written in C++. Here I will focus on an interface I have found useful for wrapping physics-based simulators in C++.
 Author: Glen Berseth
 ---
 
 # Intro
 
-These days many people want to use one of many new libraries written in python to train deep learning models.
-In general Python has many powerful and easy to use libraries for performing machine learning. 
-However, many appications that generate data that we want to learn are written in other languages.
-In particular many simulators for RL applications are written in C++.
-Here I am going to focus on an interface I have found useful for wrapping physics-based simulators in C++.
+These days, many people want to use one of many new libraries written in python to train deep learning models. In general, python has many powerful and easy to use libraries for performing machine learning. However, many applications that generate data are written in other languages. In particular, many simulators for RL applications are written in C++. Here I will focus on an interface I have found useful for wrapping physics-based simulators in C++.
 
 ## The Interface
 
-We want to able to support two types of control flow.
-One for learing and one for simulation.
-I find it helpful to have these two different methods because during learning we often can and want to simulate things faster then we would normally render them.
-Also during rendering we might want to be able to intereact with the simulation, for example, to give an agent in the simulation a little shove.
+We want to able to support two types of control flow,
+one for learning and one for simulation.
+I find it helpful to have these two different methods as we often want to simulate things faster than we would typically render them.
+Also, during rendering, we might want to interact with the simulation, for example, to give an agent in the simulation a little shove.
 
 ### Examples of The Flow of Control
 
@@ -64,7 +60,7 @@ simEpoch(actor, env)
 
 ## The code
 
-Being able to use the above psuedo code is made possible by implementing the following interface.
+Being able to use the above pseudo code is made possible by implementing the following interface.
 
 ```
 /*
@@ -133,7 +129,7 @@ public:
     /// Calculate the current reward. This is often computed over the simulation since the beging of an action.
 	virtual double calcReward() const ;
 
-	/// Interactive functions to doing things in the simulation, like reseting and throwing objects at the character
+	/// Interactive functions to doing things in the simulation, like resetting and throwing objects at the character
 	virtual void onKeyEvent(int key, int mouseX, int mouseY);
 
 private:

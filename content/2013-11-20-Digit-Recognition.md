@@ -4,7 +4,7 @@ Date: 2013-11-14 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Project
 Tags: MachineLearning, MLP
-Author: Glen B
+Author: Glen Berseth
 ---
 
 This project was a done as an exercise in Machine Learning methods. The goal	was to design a Multi-Layer Perceptron to use for handwritten digit classification.
@@ -16,5 +16,5 @@ This report outlines the findings of using Multilayer Perceptron methods to clas
 
 ## Files
 
-[Paper](/~gberseth/~gberseth/projects/MLP/mlp.pdf)
+[Paper](http://www.fracturedplane.com/projects/MLP/mlp.pdf)
 

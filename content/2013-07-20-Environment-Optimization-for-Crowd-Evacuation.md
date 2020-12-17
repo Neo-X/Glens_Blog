@@ -4,10 +4,12 @@ Date: 2014-05-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Publication
 Tags: CrowdSimulation, CrowdEvacuation, SteerSim
-Author: Glen B
+Author: Glen Berseth 
+Cover: <img src="http://www.fracturedplane.com/projects/EnvironmentOpt/teaser.png" width="400px"/>
+Summary: In this work we parameterize subspaces of the full environment configuration space and optimize parts of these subspaces for an agent flow metric. We focus on building configuration and optimize the possible placement of support pillars or obstacles in the environment.
 ---
 
-<img src="/~gberseth/projects/EnvironmentOpt/teaser.png" width="400px"/>
+<img src="http://www.fracturedplane.com/projects/EnvironmentOpt/teaser.png" width="400px"/>
 
 Sequence of images show the increased crowd flow as a result of pillar optimiation.
 
@@ -19,8 +21,8 @@ The layout of a building, real or virtual, affects the flow patterns of its inte
 
 ## Files
 
-[Bibtex](../files/bibtex/EnvironmentOpt.bib)
-[Paper](/~gberseth/~gberseth/projects/EnvironmentOpt/ArchOpt.pdf)
-[Presentation](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf)
+[Bibtex](http://www.fracturedplane.com/files/bibtex/EnvironmentOpt.bib)
+[Paper](http://www.fracturedplane.com/projects/EnvironmentOpt/ArchOpt.pdf)
+[Presentation](http://www.fracturedplane.com/projects/GameLevelOptimization/paper_errata.pdf)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

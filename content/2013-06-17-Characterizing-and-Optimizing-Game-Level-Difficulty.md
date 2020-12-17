@@ -4,8 +4,13 @@ Date: 2014-06-20 10:20
 Modified: Sunday, 21. March 2017 02:06PM 
 Category: Publication
 Tags: GameLevelDesign, Optimization, GameDifficulty
-Author: Glen B
+Author: Glen Berseth
+Cover:	<img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	
+Summary: In this work we parameterized the configuration of a game level. With the parameterization we optimized aspects of the game level to change a players expected difficulty. Given specific constrains on the configuration of the game level we can produce game levels with a varying degree of difficulty. 
 ---
+
+<div> <img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	 </div>
+
 In this work we parameterized the configuration of a game level. With the parameterization we optimized aspects of the game level to change a players expected difficulty. Given specific constrains on the configuration of the game level we can produce game levels with a varying degree of difficulty.
 
 ## Abstract
@@ -18,31 +23,16 @@ To exemplify the usefulness of the framework, we show that small changes in leve
 								This video demonstrates some of the example results of game level optimization.
 							</p>
 							<video width="720" height="410" controls>
-							  <source type="video/mp4" src="projects/GameLevelOptimization/mig2014_submission_15.mp4"></source>
-							  <source type="video/webm" src="projects/GameLevelOptimization/mig2014_submission_15.webm"></source>
-							  							
-							  Your browser does not support the encoded video.
-							</video>
-						</article>
-
-<article style="text-align:center">
-							<p>
-								This video demonstrates some of the example results of game level optimization.
-							</p>
-							<video width="720" height="410" controls>
-							  <source type="video/mp4" src="projects/GameLevelOptimization/mig2014_submission_15.mp4"></source>
-							  <source type="video/webm" src="projects/GameLevelOptimization/mig2014_submission_15.webm"></source>
-							  							
+							  <source type="video/mp4" src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization.mp4"></source>
 							  Your browser does not support the encoded video.
 							</video>
 						</article>
 
 ## Files
 
-[Bibtex](../files/bibtex/gameLevelOpt.bib)
-[Paper](/~gberseth/~gberseth/projects/GameLevelOptimization/mig2014_submission_15.pdf)
-[Errata](/~gberseth/~gberseth/projects/GameLevelOptimization/paper_errata.pdf)
-[Presentation] (/~gberseth/~gberseth/projects/GameLevelOptimization/ProceduralOptimization-Presentation.pptx)
+[Bibtex](http://www.fracturedplane.com/files/bibtex/gameLevelOpt.bib)
+[Paper](http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization.pdf)
+[Presentation] (http://www.fracturedplane.com/projects/GameLevelOpt/ProceduralOptimization-Presentation.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 
 
