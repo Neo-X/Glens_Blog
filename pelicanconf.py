@@ -26,7 +26,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Home', '/'),
-         ('Publications', SITEURL_ + '/category/publication.html'),
+         ('Papers', SITEURL_ + '/category/publication.html'),
          ('Projects', SITEURL_ + '/category/project.html'),
          ('Articles', SITEURL_ + '/category/article.html'),
          ('Links', SITEURL_ + '/links.html'),
