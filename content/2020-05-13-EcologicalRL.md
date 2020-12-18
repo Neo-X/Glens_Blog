@@ -10,6 +10,8 @@ Link: https://sites.google.com/view/ecological-rl/home
 Cover: <div align="center">       <img width="50%" src="http://www.fracturedplane.com/projects/EcologicalRL/moivation.png"> </div>
 summary: Reinforcement learning is normally studied in the episodic setting where the agent is reset each episode. This makes learning easier but in the real world, we would like our agent to continually learn with minimal human supervision and without having to manually reset the agent each time it makes a mistake. Reset-free or non-episodic learning is difficult, especially with sparse reward where the agent may never experience any rewarding states and not make any progress. Without any algorithmic changes however, certain properties of the environment can make learning without resets and with sparse reward more tractable. We investigate and analyze these properties: environment shaping and environment dynamism.  
 comments: true
+Type: UnsupervisedRL
+TitleShort: Curriculum via dyanmics modification
 ---
 
 <div align="center">

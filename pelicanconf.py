@@ -61,10 +61,11 @@ NEWS = (
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
          'Sep 2019: Visual Imitation work featured in MIT CSAIL podcast',
          'Apr 2019: Started PostDoc at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> group working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning Lab (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>',
-         'Feb 2019: Defended Ph.D. Thesis at the University of British Columbia in 2019 under the supervision of <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> ',
+         'Feb 2019: Defended Ph.D. Thesis at the University of British Columbia under the supervision of <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> ',
          'Aug 2017: SIGGRAPH paper DeepLoco: Dynamic Locomotion Skills Using Hierarchical Deep Reinforcement Learning covered in the <a href="https://www.popularmechanics.com/technology/news/a27581/deeploco-deep-learning-run-bot-siggraph-2017/">Popular Mechanics</a>.',
          'Mar 2017: Awarded NSERC PhD scholarship',
          'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> as CASA 2016',
          )
 
+RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task")
 # DISQUS_SITENAME = "www-fracturedplane-com"
