@@ -30,7 +30,7 @@ LINKS = (('Home', '/'),
          ('Projects', SITEURL_ + '/category/project.html'),
          ('Articles', SITEURL_ + '/category/article.html'),
          ('Links', SITEURL_ + '/links.html'),
-         ('Info', SITEURL_ + '/info.html'),
+         ('Google Scholar', 'https://scholar.google.ca/citations?user=-WZcuuwAAAAJ&hl=en'),
          )
 
 # Social widget
