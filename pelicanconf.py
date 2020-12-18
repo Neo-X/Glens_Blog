@@ -64,8 +64,9 @@ NEWS = (
          'Feb 2019: Defended Ph.D. Thesis at the University of British Columbia under the supervision of <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> ',
          'Aug 2017: SIGGRAPH paper DeepLoco: Dynamic Locomotion Skills Using Hierarchical Deep Reinforcement Learning covered in the <a href="https://www.popularmechanics.com/technology/news/a27581/deeploco-deep-learning-run-bot-siggraph-2017/">Popular Mechanics</a>.',
          'Mar 2017: Awarded NSERC PhD scholarship',
-         'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> as CASA 2016',
+         'May 2016: Modelling Dynamic Brachiation receives <span style="font-weight:bold;">best poster award</span> at Graphics Interfaces 2016',
+         'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> at CASA 2016',
          )
 
-RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Model Free Learning", "Planning")
+RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task Learning", "Model Free Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Planning")
 # DISQUS_SITENAME = "www-fracturedplane-com"
