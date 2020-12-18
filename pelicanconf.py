@@ -37,7 +37,7 @@ LINKS = (('Home', '/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 500
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -67,5 +67,5 @@ NEWS = (
          'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> as CASA 2016',
          )
 
-RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task")
+RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Model Free Learning", "Planning")
 # DISQUS_SITENAME = "www-fracturedplane-com"

@@ -7,6 +7,8 @@ Tags: CrowdSimulation, CrowdEvacuation, SteerSim
 Author: Glen Berseth
 Cover:	<img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>	
 Summary: SteerPlex works to define a salient set of scenario features that can be used to identify the relative complexity of a steering scenario. 
+Type: EnvironmentDesign
+TitleShort: Automated environment difficulty analysis
 ---
 
 <div> <img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>		 </div>

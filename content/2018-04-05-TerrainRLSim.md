@@ -8,6 +8,8 @@ Author: Glen Berseth
 AUthors: Glen Berseth, Xue Bin Peng, Michiel van de Panne
 Summary: We provide 88 challenging simulation environments that range in difficulty. The difficulty in these environments is linked not only to the number of dimensions in the action space but also to the task complexity. Using more complex and accurate simulations will help push the field closer to creating human-level intelligence. Therefore, we are releasing a number of simulation environments that include local egocentric visual perception. These environments include randomly generated terrain which the agent needs to learn to interpret via visual features. The library also provides simple mechanisms to create new environments with different agent morphologies and the option to modify the distribution of generated terrain.
 comments: true
+Type: Benchmarks
+TitleShort: Simulated robots with varied terrain 
 ---
 
 <div align="center">

@@ -7,6 +7,8 @@ Tags: GameLevelDesign, Optimization, GameDifficulty
 Author: Glen Berseth
 Cover:	<img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	
 Summary: In this work we parameterized the configuration of a game level. With the parameterization we optimized aspects of the game level to change a players expected difficulty. Given specific constrains on the configuration of the game level we can produce game levels with a varying degree of difficulty. 
+Type: EnvironmentDesign
+TitleShort: Automated game level optimization
 ---
 
 <div> <img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	 </div>

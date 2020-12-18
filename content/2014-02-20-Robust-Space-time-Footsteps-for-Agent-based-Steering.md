@@ -5,8 +5,10 @@ Modified: Sunday, 21. March 2017 02:06PM
 Category: Publication
 Tags: RealTimePlanning, CrowdSimulation, SteerSim
 Author: Glen Berseth
-Cover: <table width="100%">		<tr width="100%">			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="300px"/>				<p>					Randomized, continuous footstep action space.				</p>			</td>			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="300px"/>				<p>					Geometric validation to ensure valid configuration.				</p>			</td>		</tr>	</table>
+Cover: <table >		<tr width="100%">			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/FootstepRandomizedSteps.svg" width="45%"/>				<p>					Randomized, continuous footstep action space.				</p>			</td>			<td width="45%" align="center">				<img src="http://www.fracturedplane.com/projects/RobustFootsteps/footstepStuckCorner-2.svg" width="45%"/>				<p>					Geometric validation to ensure valid configuration.				</p>			</td>		</tr>	</table>
 Summary: With this work we build upon prevous work to inductavely design a robust footsteps-based steering algorithm. The steering algorithm uses an A* algorithm to generate least cost footstep plans between goals while avoiding dynamic collisions. 
+Type: Planning
+TitleShort: Footstep-based realtime planning
 ---
 
 <article>
