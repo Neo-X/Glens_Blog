@@ -25,11 +25,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Home', '/'),
+LINKS = (
          ('Papers', SITEURL_ + '/category/publication.html'),
-         ('Projects', SITEURL_ + '/category/project.html'),
-         ('Articles', SITEURL_ + '/category/article.html'),
-         ('Links', SITEURL_ + '/links.html'),
          ('Google Scholar', 'https://scholar.google.ca/citations?user=-WZcuuwAAAAJ&hl=en'),
          )
 
