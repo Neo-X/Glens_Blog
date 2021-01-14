@@ -9,7 +9,7 @@ Summary: Significant progress has been made with regard to motions such as walki
 Cover: <img width="100%" src="http://www.fracturedplane.com/projects/Brachiation/Brachiation.png">
 Author: Glen Berseth
 Type: Model Free Learning
-TitleShort: Physical Humanoid Navigation
+TitleShort: Physical gibbon navigation in trees
 ---
 
 <div align="center">

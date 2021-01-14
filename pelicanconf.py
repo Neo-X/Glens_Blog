@@ -55,6 +55,9 @@ DESCRIPTION = """I received my PhD at the Department of Computer Science at the 
 SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
 
 NEWS = (
+         'Jan 2021: SMiRL: Surprise Minimizing RL in Unstable Environments receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 6% of 860 accepted papers)</span>',
+         'Jan 2021: Two papers accepted to ICLR 2021',
+         'Jan 2021: Invited talk at IJCAI workshop Neuro-Cognitive Modeling of Humans and Environments',
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
          'Sep 2019: Visual Imitation work featured in MIT CSAIL podcast',
          'Apr 2019: Started PostDoc at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> group working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning Lab (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>',
@@ -65,5 +68,5 @@ NEWS = (
          'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> at CASA 2016',
          )
 
-RESEARCHAREAS= ("HeirarchicalRL", "UnsupervisedRL", "Multi-Task Learning", "Model Free Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Planning")
+RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Multi-Task Learning", "Model Free Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Planning")
 # DISQUS_SITENAME = "www-fracturedplane-com"
