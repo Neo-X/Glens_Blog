@@ -8,7 +8,7 @@ Authors: Glen Berseth, Michiel van de Panne
 Summary: Significant progress has been made with regard to motions such as walking, running, and other specific motions, such as falling and rolling. However, we still have difficulty simulating agile motions we see in nature, for example, brachiation by gibbons. Gibbons are one of the most agile primates and can leap remarkable distances. In this work we discuss the advantages of skill learning with explicit planning to create motion controllers for more complex and dynamic navigation tasks. Skill learning is complex and cannot be directly solved using only supervised learning because generating good data plays a key role in learning good skills. Here we construct a FSM controller to model the motion and capabilities of a gibbon, one of the most agile primates, shown in Figure 1. We endeavour to give this controller motion skills using reinforcement learning and use this dynamics model to intelligently sample good actions.
 Cover: <img width="100%" src="http://www.fracturedplane.com/projects/Brachiation/Brachiation.png">
 Author: Glen Berseth
-Type: Model Free Learning
+Type: Planning
 TitleShort: Physical gibbon navigation in trees
 ---
 

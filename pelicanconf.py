@@ -49,13 +49,15 @@ PLUGINS = ["render_math"]
 
 DESCRIPTION = """I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>. I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner. You can find a list of projects and publications <a href="./category/publication.html">here</a>.
  </br>
- </br>
- The goal of my research is to develop systems that can learn and act in the world intelligently. Much of my work has focused on combining deep learning and reinforcement learning methods to solve complex, high-dimensional perception and planning problems. In general, my research builds on data-driven methods with interdisciplinary impacts across manufacturing, automation, medical applications, computer simulations and education."""
+ </br> 
+ While learning agents hold the promise of being general problem-solvers, they often struggle with environmental and task diversity.
+ My work aims to move away from training agents to maximize reward on narrow tasks and instead looks into developing agents that learn general-purpose skills that contribute to solving a wide variety of tasks.
+ Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems."""
 
 SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
 
 NEWS = (
-         'Jan 2021: SMiRL: Surprise Minimizing RL in Unstable Environments receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 6% of 860 accepted papers)</span>',
+         'Jan 2021: <a href="https://people.eecs.berkeley.edu/~gberseth/smirl-surprise-minimizing-rl-in-unstable-environments.html">SMiRL: Surprise Minimizing RL in Unstable Environments</a> receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 6% of 860 accepted papers)</span>',
          'Jan 2021: Two papers accepted to ICLR 2021',
          'Jan 2021: Invited talk at IJCAI workshop Neuro-Cognitive Modeling of Humans and Environments',
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
@@ -68,5 +70,5 @@ NEWS = (
          'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> at CASA 2016',
          )
 
-RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Multi-Task Learning", "Model Free Learning", "Imitation", "Life Long Learning", "Exploration", "EnvironmentDesign", "Planning")
+RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Planning", "Imitation", "Life Long Learning", "EnvironmentDesign")
 # DISQUS_SITENAME = "www-fracturedplane-com"
