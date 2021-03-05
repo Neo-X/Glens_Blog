@@ -57,7 +57,9 @@ DESCRIPTION = """I received my PhD at the Department of Computer Science at the 
 SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
 
 NEWS = (
-         'Jan 2021: <a href="https://people.eecs.berkeley.edu/~gberseth/smirl-surprise-minimizing-rl-in-unstable-environments.html">SMiRL: Surprise Minimizing RL in Unstable Environments</a> receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 6% of 860 accepted papers)</span>',
+         'Mar 2021: Associate Editor for IROS 2021',
+         'Feb 2021: Two papers accepted to ICRA2021!',
+         'Jan 2021: <a href="https://people.eecs.berkeley.edu/~gberseth/smirl-surprise-minimizing-rl-in-unstable-environments.html">SMiRL: Surprise Minimizing RL in Unstable Environments</a> receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 1.8% of submitted papers)</span>',
          'Jan 2021: Two papers accepted to ICLR 2021',
          'Jan 2021: Invited talk at IJCAI workshop Neuro-Cognitive Modeling of Humans and Environments',
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
