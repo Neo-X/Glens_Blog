@@ -28,6 +28,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (
          ('Papers', SITEURL_ + '/category/publication.html'),
          ('Google Scholar', 'https://scholar.google.ca/citations?user=-WZcuuwAAAAJ&hl=en'),
+         ('twitter', "https://twitter.com/GlenBerseth"),
          )
 
 # Social widget
