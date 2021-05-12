@@ -5,7 +5,7 @@ Modified: Thu, 25. September 2018 02:06PM
 Category: Publication
 Tags: RL, DeepLearning, Simulation, ModelBasedRL
 Author: Glen Berseth
-Cover: <div align="center"> <img width="27%" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser2.png">			<img width="26%" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser.png">	<img width="44%" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser3.png"> </div>
+Cover: <div align="center"> <img width="27%" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser2.png">			<img width="26%" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser.png">	<img width="44%" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser3.png"> </div>
 Authors: Zhaoming Xie, Glen Berseth, Patrick Clary, Jonathan Hurst, Michiel van de Panne
 Summary: Deep reinforcement learning has achieved great strides in solving challenging motion control tasks. Recently, there has been significant work on methods for exploiting the data gathered during training, but there has been less work on how to best generate the data to learn from. For continuous action domains, the most common method for generating exploratory actions involves sampling from a Gaussian distribution centred around the mean action output by a policy. Although these methods can be quite capable, they do not scale well with the dimensionality of the action space, and can be dangerous to apply on hardware. We consider learning a forward dynamics model to predict the result, $(x_{t+1})$, of taking a particular action, $(u_{t})$, given a specific observation of the state, $(x_{t})$. With this model we perform internal look-ahead predictions of outcomes and seek actions we believe have a reasonable chance of success. This method alters the exploratory action space, thereby increasing learning speed and enables higher quality solutions to difficult problems, such as robotic locomotion and juggling
 comments: true
@@ -21,9 +21,9 @@ TitleShort: Imitation on Cassie robot
 
 
 <div align="center">
-			<span class="STYLE17"> <img width="200" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser2.png"> </span>
-			<span class="STYLE17"> <img width="200" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser.png"> </span>
-			<span class="STYLE17"> <img width="350" src="http://www.fracturedplane.com/projects/Cassie_IROS/teaser3.png"> </span>
+			<span class="STYLE17"> <img width="200" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser2.png"> </span>
+			<span class="STYLE17"> <img width="200" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser.png"> </span>
+			<span class="STYLE17"> <img width="350" src="https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/teaser3.png"> </span>
 			 &nbsp; &nbsp; &nbsp;
 
 </div>
@@ -43,7 +43,7 @@ Bipedal locomotion skills are challenging to develop. Control strategies often u
 
 ## Files
 
-[Paper](http://www.fracturedplane.com/projects/Cassie_IROS/2018-IROS-cassie.pdf)
+[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/Cassie_IROS/2018-IROS-cassie.pdf)
 
 ## Videos!
 

@@ -31,7 +31,7 @@ The library also provides simple mechanisms to create new environments with diff
 
 ## Files
 
-[Paper](http://www.fracturedplane.com/projects/TerrainRLSim/paper.pdf)
+[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/TerrainRLSim/paper.pdf)
 [Code](https://github.com/UBCMOCCA/TerrainRLSim)
 
 ## Videos!

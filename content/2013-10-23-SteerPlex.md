@@ -5,13 +5,13 @@ Modified: Sunday, 21. March 2017 02:06PM
 Category: Publication
 Tags: CrowdSimulation, CrowdEvacuation, SteerSim
 Author: Glen Berseth
-Cover:	<img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>	
+Cover:	<img src="https://people.eecs.berkeley.edu/~gberseth/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>	
 Summary: SteerPlex works to define a salient set of scenario features that can be used to identify the relative complexity of a steering scenario. 
 Type: EnvironmentDesign
 TitleShort: Automated environment difficulty analysis
 ---
 
-<div> <img src="http://www.fracturedplane.com/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>		 </div>
+<div> <img src="https://people.eecs.berkeley.edu/~gberseth/projects/SteerPlex/steerplex-teaser.png" width="90%"/> <p> Levels from Baulder's Gate </p>		 </div>
 
 SteerPlex works to define a salient set of scenario features that can be used to identify the relative complexity of a steering scenario. 
 
@@ -54,7 +54,7 @@ The complexity of interactive virtual worlds has increased dramatically in recen
 } 
 </p>
 
-[Paper](http://www.fracturedplane.com/projects/SteerPlex/2013-mig-steerplex.pdf)
+[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/SteerPlex/2013-mig-steerplex.pdf)
 [Presentation](http://www.fracturedplane.com/presentations/SteerPlex/reveal-pres.html)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 
