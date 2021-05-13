@@ -53,11 +53,22 @@ DESCRIPTION = """I received my PhD at the Department of Computer Science at the 
  </br> 
  While learning agents hold the promise of being general problem-solvers, they often struggle with environmental and task diversity.
  My work aims to move away from training agents to maximize reward on narrow tasks and instead looks into developing agents that learn general-purpose skills that contribute to solving a wide variety of tasks.
- Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems."""
+ Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems.
+ </br> 
+ </br> 
+ Interested in joining my group?
+</br> 
+    Students interested in an undergraduate research position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8MJ1e72tB9UuzjeIJb0CX5k43ASwimhx63sWzZnEyc4dtA/viewform?usp=sf_link">this form</a>.
+</br> 
+    Students interest in a MSc/PhD please apply through <a href="https://mila.quebec/en/cours/supervision/">Mila admissions</a>.
+</br> 
+    Students interest in a Postdoctoral position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLScDW9mQ0pNqeDix8Nsrt8uFOMxNTmBmxyszed-R9cX5lkZ5ag/viewform?usp=sf_link">this form</a>.
+"""
 
 SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
 
 NEWS = (
+         'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/english/home/">University of Montreal</a> in August 2021! ',
          'Apr 2021: Our <a href="https://arxiv.org/abs/2103.14295">research paper</a> that will be presented at ICRA2021 on <a href="https://youtu.be/goxCjGPQH7U">RL for bipedal robots</a> was featured in <a href="https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/">MIT Technology Review</a>',
          'Mar 2021: Associate Editor for IROS 2021',
          'Feb 2021: Two papers accepted to ICRA2021!',
