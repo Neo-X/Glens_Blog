@@ -47,22 +47,25 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ["render_math"]
 
 
-
-DESCRIPTION = """I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>. I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner. You can find a list of projects and publications <a href="./category/publication.html">here</a>.
+#  </br> 
+#  While learning agents hold the promise of being general problem-solvers, they often struggle with environmental and task diversity.
+#  My work aims to move away from training agents to maximize reward on narrow tasks and instead looks into developing agents that learn general-purpose skills that contribute to solving a wide variety of tasks.
+#  Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems.
+#  </br> 
+DESCRIPTION = """
+    I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>.
+    I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner.
+    I have also worked at IBM (2012) and with <a href="https://mila.quebec/en/person/pal-christopher/">Christopher Pal</a> at ElementAI (2018). 
+    You can find a list of projects and publications <a href="./category/publicatwithion.html">here</a>.
  </br>
  </br> 
- While learning agents hold the promise of being general problem-solvers, they often struggle with environmental and task diversity.
- My work aims to move away from training agents to maximize reward on narrow tasks and instead looks into developing agents that learn general-purpose skills that contribute to solving a wide variety of tasks.
- Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems.
- </br> 
- </br> 
  Interested in joining my group?
-</br> 
-    Students interested in an undergraduate research position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8MJ1e72tB9UuzjeIJb0CX5k43ASwimhx63sWzZnEyc4dtA/viewform?usp=sf_link">this form</a>.
-</br> 
-    Students interest in a MSc/PhD please apply through <a href="https://mila.quebec/en/cours/supervision/">Mila admissions</a>.
-</br> 
-    Students interest in a Postdoctoral position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLScDW9mQ0pNqeDix8Nsrt8uFOMxNTmBmxyszed-R9cX5lkZ5ag/viewform?usp=sf_link">this form</a>.
+ <ul>
+ 
+    <li>Students interested in an undergraduate research position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8MJ1e72tB9UuzjeIJb0CX5k43ASwimhx63sWzZnEyc4dtA/viewform?usp=sf_link">this form</a>.</li>
+    <li>Students interest in a MSc/PhD please apply through <a href="https://mila.quebec/en/cours/supervision/">Mila admissions</a>.</li>
+    <li>Students interest in a Postdoctoral position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLScDW9mQ0pNqeDix8Nsrt8uFOMxNTmBmxyszed-R9cX5lkZ5ag/viewform?usp=sf_link">this form</a>.</li>
+</ul>
 """
 
 SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
