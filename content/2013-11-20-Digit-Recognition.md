@@ -16,5 +16,5 @@ This report outlines the findings of using Multilayer Perceptron methods to clas
 
 ## Files
 
-[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/MLP/mlp.pdf)
+[Paper](http://www.fracturedplane.com/projects/MLP/mlp.pdf)
 

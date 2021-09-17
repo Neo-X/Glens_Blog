@@ -5,7 +5,7 @@ date: '2014-10-12T13:25:00.000-07:00'
 author: Glen Berseth
 tags: 
 modified_time: '2014-10-12T13:34:19.882-07:00'
-Cover: <div> <img width="45%" src="https://people.eecs.berkeley.edu/~gberseth/projects/subdivision/CowHead-1.png"/> <img width="45%" src="https://people.eecs.berkeley.edu/~gberseth/projects/subdivision/CowHead-2.png"/> </div>
+Cover: <div> <img width="45%" src="http://www.fracturedplane.com/projects/subdivision/CowHead-1.png"/> <img width="45%" src="http://www.fracturedplane.com/projects/subdivision/CowHead-2.png"/> </div>
 Summary: Recently I have been learning more about polygonal meshes and operations you can perform on them. One of the first operations that can be done on a mesh, that is a kind of cool, is subdivision. The basic idea is that you have a mesh that is very course (few polygons, rough) and we want a method that can construct a smoother mesh from this course mesh. This has been a popular method for constructing extremely smooth meshes for movies for many years.
 ---
 

@@ -5,13 +5,13 @@ Modified: Sunday, 21. March 2017 02:06PM
 Category: Publication
 Tags: GameLevelDesign, Optimization, GameDifficulty
 Author: Glen Berseth
-Cover:	<img src="https://people.eecs.berkeley.edu/~gberseth/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	
+Cover:	<img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	
 Summary: In this work we parameterized the configuration of a game level. With the parameterization we optimized aspects of the game level to change a players expected difficulty. Given specific constrains on the configuration of the game level we can produce game levels with a varying degree of difficulty. 
 Type: EnvironmentDesign
 TitleShort: Automated game level optimization
 ---
 
-<div> <img src="https://people.eecs.berkeley.edu/~gberseth/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	 </div>
+<div> <img src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization-teaser.png" width="90%"/>	 </div>
 
 In this work we parameterized the configuration of a game level. With the parameterization we optimized aspects of the game level to change a players expected difficulty. Given specific constrains on the configuration of the game level we can produce game levels with a varying degree of difficulty.
 
@@ -25,7 +25,7 @@ To exemplify the usefulness of the framework, we show that small changes in leve
 								This video demonstrates some of the example results of game level optimization.
 							</p>
 							<video width="720" height="410" controls>
-							  <source type="video/mp4" src="https://people.eecs.berkeley.edu/~gberseth/projects/GameLevelOpt/2014-mig-game-level-optimization.mp4"></source>
+							  <source type="video/mp4" src="http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization.mp4"></source>
 							  Your browser does not support the encoded video.
 							</video>
 						</article>
@@ -33,8 +33,8 @@ To exemplify the usefulness of the framework, we show that small changes in leve
 ## Files
 
 [Bibtex](http://www.fracturedplane.com/files/bibtex/gameLevelOpt.bib)
-[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/GameLevelOpt/2014-mig-game-level-optimization.pdf)
-[Presentation] (https://people.eecs.berkeley.edu/~gberseth/projects/GameLevelOpt/ProceduralOptimization-Presentation.pptx)
+[Paper](http://www.fracturedplane.com/projects/GameLevelOpt/2014-mig-game-level-optimization.pdf)
+[Presentation] (http://www.fracturedplane.com/projects/GameLevelOpt/ProceduralOptimization-Presentation.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 
 

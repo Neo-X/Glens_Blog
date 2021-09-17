@@ -20,7 +20,7 @@ We present a preliminary exploration of an architectural optimization process to
 
 ## Files
 
-[Paper](https://people.eecs.berkeley.edu/~gberseth/projects/acclmesh/CHI_2016_CODE.pdf)
+[Paper](http://www.fracturedplane.com/projects/acclmesh/CHI_2016_CODE.pdf)
 
 ### Bibtex
 

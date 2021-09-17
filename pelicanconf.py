@@ -27,6 +27,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
          ('Papers', SITEURL_ + '/category/publication.html'),
+         ('Teaching', SITEURL_ + '/teaching-new-course-in-robot-learning.html'),
          ('Google Scholar', 'https://scholar.google.ca/citations?user=-WZcuuwAAAAJ&hl=en'),
          ('twitter', "https://twitter.com/GlenBerseth"),
          )
@@ -53,6 +54,7 @@ PLUGINS = ["render_math"]
 #  Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems.
 #  </br> 
 DESCRIPTION = """
+    I was a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems.
     I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>.
     I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner.
     I have also worked at IBM (2012) and with <a href="https://mila.quebec/en/person/pal-christopher/">Christopher Pal</a> at ElementAI (2018). 
@@ -68,14 +70,15 @@ DESCRIPTION = """
 </ul>
 """
 
-SITESUBTITLE = """I am a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems."""
+SITESUBTITLE = """I am an assistant professor at the <a href="https://diro.umontreal.ca/">University de Montreal</a> and <a href="https://mila.quebec/en/">Mila</a>. My research combines deep learning and reinforcement learning for robotics."""
 
 NEWS = (
-         'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/english/home/">University of Montreal</a> in August 2021! ',
+         'Sep 2021: I will be teaching a course on <a href="http://www.fracturedplane.com/teaching-new-course-in-robot-learning.html" deep reinforcement learning for robotics</a> in January 2022! ',
+         'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/">University of Montreal</a> in August 2021! ',
          'Apr 2021: Our <a href="https://arxiv.org/abs/2103.14295">research paper</a> that will be presented at ICRA2021 on <a href="https://youtu.be/goxCjGPQH7U">RL for bipedal robots</a> was featured in <a href="https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/">MIT Technology Review</a>',
          'Mar 2021: Associate Editor for IROS 2021',
          'Feb 2021: Two papers accepted to ICRA2021!',
-         'Jan 2021: <a href="https://people.eecs.berkeley.edu/~gberseth/projects/smirl-surprise-minimizing-rl-in-unstable-environments.html">SMiRL: Surprise Minimizing RL in Unstable Environments</a> receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 1.8% of submitted papers)</span>',
+         'Jan 2021: <a href="http://www.fracturedplane.com/projects/smirl-surprise-minimizing-rl-in-unstable-environments.html">SMiRL: Surprise Minimizing RL in Unstable Environments</a> receives  <span style="font-weight:bold;">oral presentation at ICLR 2021 (top 1.8% of submitted papers)</span>',
          'Jan 2021: Two papers accepted to ICLR 2021',
          'Jan 2021: Invited talk at IJCAI workshop Neuro-Cognitive Modeling of Humans and Environments',
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
