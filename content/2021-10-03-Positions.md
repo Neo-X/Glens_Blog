@@ -13,7 +13,7 @@ Type: Deep Reinforcement Learning
 TitleShort: 
 ---
 
- Please apply through one of these forms. It is unlikely I will respond to emails.
+Please apply through one of these forms. It is unlikely I will respond to emails.
  
 ####Interested in undergraduate research or an internship
   
