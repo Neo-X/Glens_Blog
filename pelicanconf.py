@@ -34,7 +34,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+          ('twitter', 'https://twitter.com/GlenBerseth'),)
 
 DEFAULT_PAGINATION = 500
 
@@ -59,22 +59,24 @@ DESCRIPTION = """
     I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner.
     I have also worked at IBM (2012) and with <a href="https://mila.quebec/en/person/pal-christopher/">Christopher Pal</a> at ElementAI (2018). 
     You can find a list of projects and publications <a href="./category/publication.html">here</a>.
- </br>
- </br> 
- Interested in joining my group?
- <ul>
- 
-    <li>Students interested in an undergraduate research position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8MJ1e72tB9UuzjeIJb0CX5k43ASwimhx63sWzZnEyc4dtA/viewform?usp=sf_link">this form</a>.</li>
-    <li>Students interest in a MSc/PhD please apply through <a href="https://mila.quebec/en/cours/supervision/">Mila admissions</a>.</li>
-    <li>Students interest in a Postdoctoral position please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLScDW9mQ0pNqeDix8Nsrt8uFOMxNTmBmxyszed-R9cX5lkZ5ag/viewform?usp=sf_link">this form</a>.</li>
-</ul>
+ <br>
+ <br> 
+ <table>
+ <tr><td>
+ <h4>Interested in joining the lab?</h4>
+ </tr></td>
+ <tr><td>
+     Please see <a href=\"""" + SITEURL_ + """/contact.html">this page</a>, I may not respond to emails.
+ </tr></td>
+ </table>
 """
 
-SITESUBTITLE = """I am an assistant professor at the <a href="https://diro.umontreal.ca/">University de Montreal</a> and <a href="https://mila.quebec/en/">Mila</a>. My research combines deep learning and reinforcement learning for robotics."""
+SITESUBTITLE = """I am an assistant professor at the <a href="https://diro.umontreal.ca/">University de Montreal</a> and <a href="https://mila.quebec/en/">Mila</a>. My research explores how to use deep learning and reinforcement learning to develop generalist robots."""
 
 NEWS = (
-         'Sep 2021: I will be teaching a course on <a href="http://www.fracturedplane.com/teaching-new-course-in-robot-learning.html" deep reinforcement learning for robotics</a> in January 2022! ',
-         'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/">University of Montreal</a> in August 2021! ',
+         'Sep 2021: New paper accepted to CoRL on <a href="https://sites.google.com/view/relmm">autonomous robot learning</a>!',
+         'Sep 2021: I will be teaching a course on <a href="http://www.fracturedplane.com/teaching-new-course-in-robot-learning.html"> deep reinforcement learning for robotics</a> in January 2022!',
+         'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/">University of Montreal</a> in August 2021!',
          'Apr 2021: Our <a href="https://arxiv.org/abs/2103.14295">research paper</a> that will be presented at ICRA2021 on <a href="https://youtu.be/goxCjGPQH7U">RL for bipedal robots</a> was featured in <a href="https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/">MIT Technology Review</a>',
          'Mar 2021: Associate Editor for IROS 2021',
          'Feb 2021: Two papers accepted to ICRA2021!',
