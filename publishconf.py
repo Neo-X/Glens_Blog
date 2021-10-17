@@ -14,7 +14,7 @@ from pelicanconf import *
 # SITEURL = 'localhost/~gberseth/'
 SITEURL = ''
 RELATIVE_URLS = True
-SITEIMAGE = '/images/glen_new.jpg'
+SITEIMAGE = '/images/glen_new2_small.png'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
