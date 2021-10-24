@@ -31,7 +31,7 @@ For example, our method automatically finds optimal parameters to minimize turbu
 ## Files
 
 [comment]: <> ([Bibtex](../files/bibtex/EnvironmentOpt.bib))
-[Paper](/~gberseth/~gberseth/projects/MastersThesis/thesis.pdf)
-[Presentation](/~gberseth/~gberseth/projects/MastersThesis/Thesis-Presentation2.pptx)
+[Paper](//~gberseth//~gberseth/projects/MastersThesis/thesis.pdf)
+[Presentation](//~gberseth//~gberseth/projects/MastersThesis/Thesis-Presentation2.pptx)
 [comment]: <> ( [Code](https://github.com/FracturedPlane/EnvironmentInterface))
 

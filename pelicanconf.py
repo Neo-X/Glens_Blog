@@ -75,6 +75,7 @@ SITESUBTITLE = """I am an assistant professor at the <a href="https://diro.umont
 
 NEWS = (
          'Sep 2021: New paper accepted to CoRL on <a href="https://sites.google.com/view/relmm">autonomous robot learning</a>!',
+         'Sep 2021: New paper accepted to NeurIPS on surprise minimization in partially observed environments (paper coming soon)!',
          'Sep 2021: I will be teaching a course on <a href="http://www.fracturedplane.com/teaching-new-course-in-robot-learning.html"> deep reinforcement learning for robotics</a> in January 2022!',
          'May 2021: I will be joining <a href="https://mila.quebec/en/">Mila</a> and starting as an assistant professor at the <a href="https://diro.umontreal.ca/">University of Montreal</a> in August 2021!',
          'Apr 2021: Our <a href="https://arxiv.org/abs/2103.14295">research paper</a> that will be presented at ICRA2021 on <a href="https://youtu.be/goxCjGPQH7U">RL for bipedal robots</a> was featured in <a href="https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/">MIT Technology Review</a>',
