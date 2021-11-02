@@ -66,7 +66,7 @@ DESCRIPTION = """
  <h4>Interested in joining the lab?</h4>
  </tr></td>
  <tr><td>
-     Please see <a href=\"""" + SITEURL_ + """/contact.html">this page</a>, I may not respond to emails.
+     Please see <a href="./contact.html">this page</a>, I may not respond to emails.
  </tr></td>
  </table>
 """
