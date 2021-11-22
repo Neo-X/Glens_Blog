@@ -63,10 +63,10 @@ DESCRIPTION = """
  <br> 
  <table>
  <tr><td>
- <h4>Interested in joining the lab?</h4>
+ <h4>Interested in joining <a href="https://montrealrobotics.ca/">the lab?</a></h4>
  </tr></td>
  <tr><td>
-     Please see <a href="./contact.html">this page</a>, I may not respond to emails.
+     Are you interested in the practical and theoretical challenges of creating generalist problem-solving robots? Please see <a href="./contact.html">this page</a> to apply. I may not respond to emails.
  </tr></td>
  </table>
 """
