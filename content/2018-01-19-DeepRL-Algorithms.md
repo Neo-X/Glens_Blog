@@ -63,7 +63,7 @@ Here a table of popular RL algorithms is given.
 One property of RL algorithms I still rack my brain is on-policy vs off-policy. The line between these two very fuzzy. 
 While it is known that any method that uses an action-valued function is off policy, some methods that claim to be on-policy are used in ways that seem very off-policy.
 In some papers, the amount of data collected before performing training updates is in the 100,000s, far more than anything I have ever used for off-policy learning.
-It has also been shown that [keeping around data from the last few data collection cycles](https://learningai.io//~gberseth/projects/2017/07/28/ai-gym-workout.html) is beneficial.
+It has also been shown that [keeping around data from the last few data collection cycles](https://learningai.io//projects/2017/07/28/ai-gym-workout.html) is beneficial.
 We also seem to gloss over the fact that we do not train the policy and value function to convergence between data collection cycles.
 Therefore, in practice, we are always using an off-policy critic.
 

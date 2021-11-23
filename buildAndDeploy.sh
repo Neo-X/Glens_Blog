@@ -1,5 +1,5 @@
 #!/bin/bash
 
 make publish
-cp -r output/* /var/www/html/~gberseth/
-cp -r content/projects/* /var/www/html/~gberseth/projects/
+cp -r output/* /var/www/html/
+cp -r content/projects/* /var/www/html/projects/

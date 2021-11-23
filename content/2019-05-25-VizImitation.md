@@ -5,7 +5,7 @@ Modified: Thu, 25. May 2019 02:06PM
 Category: Publication
 Tags: RL, DeepLearning, Simulation, Imitation Learning
 Author: Glen Berseth
-Cover: <img width="100%" src="/~gberseth/projects/VizImitation/agresive-walk.gif">
+Cover: <img width="100%" src="/projects/VizImitation/agresive-walk.gif">
 Authors: Glen Berseth, Christopher Pal
 summary: Imitation learning, the ability to reproduce some behaviour, is a challenging and vital problem. It is what enables animals with the ability to understand and mimic from observation. Many SoTA methods for imitation accomplish this via additional data that is often not available in the real world. For example, along with an expert's joint positions, the torques used by the expert are available as well. In this work, we describe a learning system that allows an agent to reproduce imitative behaviour of 3D simulated robots from video. This progress will enable us to create robots that can learn behaviour from observing humans, and allow humans to instruct robots in a very natural form of instruction.
 comments: true
@@ -23,7 +23,7 @@ TitleShort: Imitation from a single video demonstration
 </div>
 
 <div align="center">
-            <span class="STYLE17"> <img width="600" src="/~gberseth/projects/VizImitation/agresive-walk.gif"> </span>
+            <span class="STYLE17"> <img width="600" src="/projects/VizImitation/agresive-walk.gif"> </span>
 </div>
 
 Imitation learning, the ability to reproduce some behaviour, is a challenging and vital problem. It is what enables animals with the ability to understand and mimic from observation. Many SoTA methods for imitation accomplish this via additional data that is often not available in the real world. For example, along with an expert's joint positions, the torques used by the expert are available as well. In this work, we describe a learning system that allows an agent to reproduce imitative behaviour of 3D simulated robots from video. This progress will enable us to create robots that can learn behaviour from observing humans, and allow humans to instruct robots in a very natural form of instruction.
@@ -38,9 +38,9 @@ While there has been work on imitation strategies from images for manipulation [
 ### Imitation from Sequences
 
 <div align="center">
-            <span class="STYLE17"> <img width="30%" src="/~gberseth/projects/VizImitation/walk_mocap.gif"> </span>
-            <span class="STYLE17"> <img width="30%" src="/~gberseth/projects/VizImitation/walk_slow.gif"> </span>
-            <span class="STYLE17"> <img width="30%" src="/~gberseth/projects/VizImitation/fall_mocap.gif"> </span>
+            <span class="STYLE17"> <img width="30%" src="/projects/VizImitation/walk_mocap.gif"> </span>
+            <span class="STYLE17"> <img width="30%" src="/projects/VizImitation/walk_slow.gif"> </span>
+            <span class="STYLE17"> <img width="30%" src="/projects/VizImitation/fall_mocap.gif"> </span>
 </div>
 
 Current methods use spatial information to compute distances between images. These methods have worked well given enough compute, good policies can be learned. However, these methods may suffer from false negatives that occur when the agent is out-of-sync with the expert. In the above example, we show a walking motion, followed by a walking motion played back at $1/4$ speed and last, a fallen motion. The limitation of spatial distance methods is that a similar low reward will be given for these two examples, although, the middle motion looks more like a walk then the right.
@@ -54,14 +54,14 @@ To learn these distances, we train a recurrent Siamese network. We train this me
 
 
 <div align="center">
-            <span class="STYLE17"> <img width="100%" src="/~gberseth/projects/VizImitation/siamese_lstm_2.png"> </span>
+            <span class="STYLE17"> <img width="100%" src="/projects/VizImitation/siamese_lstm_2.png"> </span>
 </div>
 
 
 ### Results
 
 <div align="center">
-            <span class="STYLE17"> <img width="600" src="/~gberseth/projects/VizImitation/walk_biped2d.gif"> </span>
+            <span class="STYLE17"> <img width="600" src="/projects/VizImitation/walk_biped2d.gif"> </span>
 </div>
 
 Using the spatial and temporal distance functions in combination, we can now train RL agents to match expert demonstrations from a single video example. The new temporal distances allow quick learning but have trouble achieving high-quality results without the addition of spatial rewards.
@@ -69,13 +69,13 @@ Using the spatial and temporal distance functions in combination, we can now tra
 
 
 <div align="center">
-            <span class="STYLE17"> <img width="600" src="/~gberseth/projects/VizImitation/__use_learned_reward_function_Training_curves_edited.png"> </span>
+            <span class="STYLE17"> <img width="600" src="/projects/VizImitation/__use_learned_reward_function_Training_curves_edited.png"> </span>
 </div>
 
 The addition of these new rewards using temporal distances (along with some additional insights) has enabled imitation learning of 3D motion imitation given only a single video demonstration. While these are the first results of its type, additional quality might be gained from multi-view video data or other multi-task data.
 
 <div align="center">
-            <span class="STYLE17"> <img width="600" src="/~gberseth/projects/VizImitation/run_humanoid3d.gif"> </span>
+            <span class="STYLE17"> <img width="600" src="/projects/VizImitation/run_humanoid3d.gif"> </span>
 </div>
 
 ## Files
