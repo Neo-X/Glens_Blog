@@ -36,7 +36,7 @@ LINKS = (
 SOCIAL = (('You can add links in your config file', '#'),
           ('twitter', 'https://twitter.com/GlenBerseth'),)
 
-DEFAULT_PAGINATION = 500
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -95,5 +95,6 @@ NEWS = (
          'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> at CASA 2016',
          )
 
-RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Planning", "Imitation", "Life Long Learning", "EnvironmentDesign")
+# RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Planning", "Imitation", "Life Long Learning", "EnvironmentDesign")
+RESEARCHAREAS= ("Representative", )
 # DISQUS_SITENAME = "www-fracturedplane-com"
