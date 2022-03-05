@@ -58,9 +58,9 @@ DESCRIPTION = """
     I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>.
     I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner.
     I have also worked at IBM (2012) and with <a href="https://mila.quebec/en/person/pal-christopher/">Christopher Pal</a> at ElementAI (2018). 
-    You can find a list of projects and publications <a href="./category/publication.html">here</a>.
  <br>
  <br> 
+ To see a more formal biography, click <a href="biography.html">here</a>.
  <table>
  <tr><td>
  <h4>Interested in joining <a href="https://montrealrobotics.ca/">the lab?</a></h4>
