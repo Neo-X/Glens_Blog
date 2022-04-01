@@ -54,10 +54,13 @@ PLUGINS = ["render_math"]
 #  Specifically, my work has focused on combining deep learning and reinforcement learning methods to solve high-dimensional perception and planning problems.
 #  </br> 
 DESCRIPTION = """
-    I was a Postdoctoral Researcher at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. My research combines deep learning and reinforcement learning on high-dimensional control problems.
-    I received my PhD at the Department of Computer Science at the University of British Columbia in 2019 where I worked on reinforcement learning, machine learning and motion planning with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a>.
-    I received my BSc degree in Computer Science from York University in 2012 and my MSc from York University under the supervision of <a href="www.cse.yorku.ca/~pfal/">Petros Faloutsos</a> in 2014 for optimization and authoring crowd simulations. I have published in a wide range of areas including computer animation, machine learning and robotics and am a NSERC scholarship award winner.
-    I have also worked at IBM (2012) and with <a href="https://mila.quebec/en/person/pal-christopher/">Christopher Pal</a> at ElementAI (2018). 
+
+    I am an assistant professor at the <a href="https://diro.umontreal.ca/accueil/">Université de Montréal</a>, a core academic member of the <a href="https://mila.quebec/en/">Mila - Quebec AI Institute</a>, <a href="https://cifar.ca/ai/canada-cifar-ai-chairs/">CIFAR AI chair</a>, and co-director of the <a href="https://montrealrobotics.ca/">Robotics and Embodied AI Lab (REAL)</a>. 
+    I was a Postdoctoral Researcher with <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a>, working with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>. 
+    His previous and current research has focused on solving sequential decision-making problems for real-world autonomous learning systems (robots). 
+    The specific of his research has covered the areas of reinforcement-, continual-, meta-, hierarchical learning, and human-robot collaboration. 
+    In his work, Dr. Berseth has published at top venues across the disciplines of robotics, machine learning, and computer animation. 
+    Currently, he is teaching a course on robot learning at Université de Montréal and Mila that covers the most recent research on machine learning techniques for creating generalist robots. 
  <br>
  <br> 
  To see a more formal biography, click <a href="biography.html">here</a>.

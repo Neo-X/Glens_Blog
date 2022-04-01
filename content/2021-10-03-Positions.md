@@ -3,19 +3,19 @@ Title: Contact
 Date: 2021-10-03 10:20
 Modified: Wednesday, 4. Oct 2021 02:06PM 
 Category: Supervision
-Tags: Reinforcement Learning, Robot Learning, Deep Learning 
+Tags: Supervision 
 Author: Glen Berseth
 Authors: 
 Cover: Getting involved in the lab!
 summary: If you are interested in joining the lab please read!
 comments: false
-Type: Deep Reinforcement Learning
+Type: Contact
 TitleShort: 
 ---
 
-Please apply through one of these forms. It is unlikely I will respond to emails.
+Please apply through one of these forms. It is unlikely I will respond to individual emails.
  
-####Interested in undergraduate research or an internship
+####Interested in undergraduate, intern, or visiting research
   
 Please apply through <a href="https://docs.google.com/forms/d/e/1FAIpQLScpI2eu0F-jwvYqNsGPHMO_PHtVodvqqgUXji0HSzcjNZMnKw/viewform?usp=sf_link">this form</a>.
     
