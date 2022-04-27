@@ -77,6 +77,7 @@ DESCRIPTION = """
 SITESUBTITLE = """I am an assistant professor at the <a href="https://diro.umontreal.ca/">University de Montreal</a> and <a href="https://mila.quebec/en/">Mila</a>. My research explores how to use deep learning and reinforcement learning to develop generalist robots."""
 
 NEWS = (
+         'Apr 2022: <a href="https://nouvelles.umontreal.ca/en/article/2022/04/19/the-fondation-courtois-gives-159m-to-udem-for-the-discovery-of-new-materials/">UdeM receives 159M</a> to create the <a href="https://institut-courtois.umontreal.ca/en/">Courtois Institute</a> to support fundamental science and apply AI and robotics to scientific experimentation. My lab will lead research on methods for automating scientific experimentation.',
          'Jan 2022: New paper accepted to ICLR on <a href="https://arxiv.org/abs/2112.04467">Continual Meta-Reinforcement Learning</a>.',
          'Sep 2021: New paper accepted to CoRL on <a href="https://sites.google.com/view/relmm">autonomous robot learning</a>!',
          'Sep 2021: New paper accepted to NeurIPS on <a href="https://sites.google.com/view/ic2/home">surprise minimization in partially observed environments</a>!',
@@ -91,11 +92,7 @@ NEWS = (
          'Aug 2020: Deep Integration of Physical Humanoid Control and Crowd Navigation <span style="font-weight:bold;">receives best paper runner up at MIG2020</span>',
          'Sep 2019: Visual Imitation work featured in MIT CSAIL podcast',
          'Apr 2019: Started PostDoc at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> group working in the <a href="http://rail.eecs.berkeley.edu/">Robotic AI & Learning Lab (RAIL)</a> lab with <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>',
-         'Feb 2019: Defended Ph.D. Thesis at the University of British Columbia under the supervision of <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> ',
-         'Aug 2017: SIGGRAPH paper DeepLoco: Dynamic Locomotion Skills Using Hierarchical Deep Reinforcement Learning covered in the <a href="https://www.popularmechanics.com/technology/news/a27581/deeploco-deep-learning-run-bot-siggraph-2017/">Popular Mechanics</a>.',
-         'Mar 2017: Awarded NSERC PhD scholarship',
-         'May 2016: Modelling Dynamic Brachiation receives <span style="font-weight:bold;">best poster award</span> at Graphics Interfaces 2016',
-         'Mar 2016: Robust Space-Time Footsteps for Agent-Based Steering receives <span style="font-weight:bold;">best short paper award</span> at CASA 2016',
+         '...'
          )
 
 # RESEARCHAREAS= ("Hierarchical Reinforcement Learning", "Unsupervised Reinforcement Learning", "Planning", "Imitation", "Life Long Learning", "EnvironmentDesign")
